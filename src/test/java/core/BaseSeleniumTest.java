@@ -20,23 +20,25 @@ abstract public class BaseSeleniumTest {
 
     @BeforeClass
     public void setUp() {
-        //  createDriver(driver, BROWSER_NAME);
-//        switch (BROWSER_NAME) {
-//            case "CHROME" -> {
-//                WebDriverManager.chromedriver().setup();
-//                driver = new ChromeDriver();
-//            }
-//            case "FIREFOX" -> {
-//                WebDriverManager.firefoxdriver().setup();
-//                driver = new FirefoxDriver();
-//            }
-//            default -> System.out.println("Wrong browser name" + BROWSER_NAME);
-//
-//        }
+
 
         if (!OS_NAME_FOR_GIT.equals("Linux")){
-            driver = new ChromeDriver();
-          }else{
+           switch (BROWSER_NAME) {
+                case "CHROME" :
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                break;
+
+                case "FIREFOX" :
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                break;
+                default:
+                    System.out.println("Wrong browser name" + BROWSER_NAME);
+
+            }
+          }
+        else{
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless","--no-sandbox",
                     "--disable-gpu","--disable-dev-shm-usage",
