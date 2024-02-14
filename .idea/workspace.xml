@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="verify pom try1">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/CI.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="new workflow">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/examples/google/CalcPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/examples/google/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/examples/google/SearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampples/GooglePageTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -246,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707933143615</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new workflow">
+      <created>1707933390284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707933390284</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new workflow">
+      <created>1707933508401</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707933508401</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +269,8 @@
     <MESSAGE value="verify githubAction" />
     <MESSAGE value="verify pom" />
     <MESSAGE value="verify pom try1" />
-    <option name="LAST_COMMIT_MESSAGE" value="verify pom try1" />
+    <MESSAGE value="new workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="new workflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
