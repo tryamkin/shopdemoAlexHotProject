@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.itfriendly.projectPages.MainPage;
 
+
 public class MainPageTest extends BaseSeleniumTest {
 
     @Test

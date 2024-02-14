@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import java.time.Duration;
@@ -38,13 +39,20 @@ abstract public class BaseSeleniumTest {
 
             }
           }
-        else{
+        else if (BROWSER_NAME.equals("CHROME")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless","--no-sandbox",
                     "--disable-gpu","--disable-dev-shm-usage",
                     "--window-size=1920,1080","--remote-allow-origins=*");
             driver = new ChromeDriver(options);
+            System.out.println("Chrome");
             }
+        else {
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--headless");
+            driver = new FirefoxDriver(options);
+            System.out.println("Firefox");
+        }
 
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
