@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="lets test!">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="test fail + screenshot">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +313,28 @@
       <option name="project" value="LOCAL" />
       <updated>1707935886741</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test failed">
+      <created>1707936244126</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707936244126</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test passed">
+      <created>1707936473590</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707936473590</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test fail + screenshot">
+      <created>1707936538439</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707936538439</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +355,10 @@
     <MESSAGE value="verify pom try1" />
     <MESSAGE value="new workflow" />
     <MESSAGE value="lets test!" />
-    <option name="LAST_COMMIT_MESSAGE" value="lets test!" />
+    <MESSAGE value="test failed" />
+    <MESSAGE value="test passed" />
+    <MESSAGE value="test fail + screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fail + screenshot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

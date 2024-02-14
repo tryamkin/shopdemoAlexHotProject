@@ -73,20 +73,5 @@ abstract public class BaseSeleniumTest {
         }
     }
 
-    public static WebDriver createDriver (WebDriver driver, String BROWSER_NAME) {
 
-        switch (BROWSER_NAME) {
-            case "CHROME" -> {
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-            }
-            case "fire" -> {
-                WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-            }
-            default -> System.out.println("Wrong browser name" + BROWSER_NAME);
-
-        }
-        return driver;
-    }
 }
