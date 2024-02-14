@@ -5,14 +5,10 @@ import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import java.time.Duration;
-
-import static org.itfriendly.common.CommonActions.checkOsForGitHub;
-
 import static org.itfriendly.common.Config.BROWSER_NAME;
 import static org.itfriendly.common.Config.OS_NAME_FOR_GIT;
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.IMPLISITY_WAIT;
@@ -24,8 +20,7 @@ abstract public class BaseSeleniumTest {
 
     @BeforeClass
     public void setUp() {
-
-    //  createDriver(driver, BROWSER_NAME);
+        //  createDriver(driver, BROWSER_NAME);
 //        switch (BROWSER_NAME) {
 //            case "CHROME" -> {
 //                WebDriverManager.chromedriver().setup();
