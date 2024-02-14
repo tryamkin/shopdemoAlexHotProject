@@ -12,7 +12,7 @@ public class MainPageTest extends BaseSeleniumTest {
     public void openPage(){
         MainPage mainPage = new MainPage();
         mainPage.openPage();
-        Assert.assertEquals(mainPage.logoName(),"MERN Store");
+        Assert.assertEquals(mainPage.logoName(),"ERN Store");
 
 
     }
