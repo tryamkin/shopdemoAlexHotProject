@@ -14,6 +14,7 @@ public class TryamMainPageTest extends BaseSeleniumTest {
         mainPage.openPage();
         Assert.assertEquals(mainPage.logoName(),"MERN Store");
     }
+
     @Test
     public void openPage1(){
         MainPage mainPage = new MainPage();
