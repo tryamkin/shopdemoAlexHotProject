@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import static org.itfriendly.constants.Constatnt.Urls.SHOP_DEMO_URL;
 
 public class MainPage extends BaseSeleniumPage {
-
+    // constructor - must have
     public MainPage() {
         PageFactory.initElements(driver, this);
     }
@@ -21,9 +21,9 @@ public class MainPage extends BaseSeleniumPage {
     }
 
     public String logoName(){
+        //waiter
         waitForElementVisibility(logo);
         return logo.getText();
     }
-
 
 }

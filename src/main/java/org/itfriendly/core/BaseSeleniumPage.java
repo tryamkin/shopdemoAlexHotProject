@@ -17,10 +17,6 @@ abstract public class BaseSeleniumPage {
         }
 
 
-        public void goToUrls(String url){
-            driver.get(url);
-        }
-
         public WebElement waitForElementVisibility(WebElement element) {
             new WebDriverWait(driver, Duration.ofSeconds(Constatnt.TimeoutVariables.EXPLISITY_WAIT)).until(ExpectedConditions.visibilityOf(element));
             return element;
