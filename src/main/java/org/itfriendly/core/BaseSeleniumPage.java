@@ -1,6 +1,6 @@
 package org.itfriendly.core;
 
-import org.itfriendly.constants.Constatnt;
+import org.itfriendly.constants.Constatnts;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,7 +22,7 @@ abstract public class BaseSeleniumPage {
         }
 
         public WebElement waitForElementVisibility(WebElement element) {
-            new WebDriverWait(driver, Duration.ofSeconds(Constatnt.TimeoutVariables.EXPLISITY_WAIT)).until(ExpectedConditions.visibilityOf(element));
+            new WebDriverWait(driver, Duration.ofSeconds(Constatnts.TimeoutVariables.EXPLISITY_WAIT)).until(ExpectedConditions.visibilityOf(element));
             return element;
         }
     }

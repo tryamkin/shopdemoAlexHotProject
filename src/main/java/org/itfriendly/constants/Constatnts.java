@@ -1,6 +1,6 @@
 package org.itfriendly.constants;
 
-public class Constatnt {
+public class Constatnts {
     public static class TimeoutVariables{
         public static final int IMPLISITY_WAIT = 15;
         public static final int EXPLISITY_WAIT = 15;

@@ -11,8 +11,8 @@ import org.testng.annotations.BeforeClass;
 import java.time.Duration;
 import static org.itfriendly.common.Config.BROWSER_NAME;
 import static org.itfriendly.common.Config.OS_NAME_FOR_GIT;
-import static org.itfriendly.constants.Constatnt.TimeoutVariables.IMPLISITY_WAIT;
-import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
+import static org.itfriendly.constants.Constatnts.TimeoutVariables.IMPLISITY_WAIT;
+import static org.itfriendly.constants.Constatnts.TimeoutVariables.PAGELOAD_WAIT;
 
 abstract public class BaseSeleniumTest {
     protected WebDriver driver;
