@@ -9,16 +9,20 @@ import org.itfriendly.projectPages.MainPage;
 public class TryamMainPageTest extends BaseSeleniumTest {
 
     @Test
-    public void openPage(){
+    public void openPageTest(){
         MainPage mainPage = new MainPage();
         mainPage.openPage();
         Assert.assertEquals(mainPage.logoName(),"MERN Store");
     }
 
     @Test
-    public void openPage1(){
+    public void LinkSectionNumberOfElementsTest(){
         MainPage mainPage = new MainPage();
         mainPage.openPage();
-        Assert.assertEquals(mainPage.logoName(),"MERN Store");
+        Assert.assertEquals(mainPage.listElementsSize(),3);
+        Assert.assertEquals(mainPage.listElements(0),"Contact Us");
+        Assert.assertEquals(mainPage.listElements(1),"Sell With Us");
+        Assert.assertEquals(mainPage.listElements(2),"Shipping");
+
     }
 }
