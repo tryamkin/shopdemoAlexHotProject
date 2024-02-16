@@ -39,6 +39,7 @@ abstract public class BaseSeleniumTest {
     }
 
 
+
     @AfterClass
     public void tearDown() {
         switch (BROWSER_NAME) {
@@ -49,6 +50,4 @@ abstract public class BaseSeleniumTest {
             case "FIREFOX" -> driver.quit();
         }
     }
-
-
 }

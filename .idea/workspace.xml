@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="create new branch">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="oru">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/CommonActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,25 +115,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TryamMainPageTest">
-    <configuration name="GooglePageTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.exaples.exampleForYourSite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.exaples.exampleForYourSite" />
-      <option name="MAIN_CLASS_NAME" value="tests.exaples.exampleForYourSite.GooglePageTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest">
     <configuration name="GooglePageTest.searchTResultTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -167,6 +151,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryamMainPageTest.LinkSectionNumberOfElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
+      <option name="METHOD_NAME" value="LinkSectionNumberOfElementsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryamMainPageTest.LinkSectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
+      <option name="METHOD_NAME" value="LinkSectionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TryamMainPageTest.openPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -185,45 +205,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exampples.Google.exampleForYourSite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="exampples.Google.exampleForYourSite" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest" />
+      <item itemvalue="TestNG.TryamMainPageTest.LinkSectionTest" />
       <item itemvalue="TestNG.TryamMainPageTest" />
       <item itemvalue="TestNG.TryamMainPageTest.openPage" />
-      <item itemvalue="TestNG.exampples.Google.exampleForYourSite" />
-      <item itemvalue="TestNG.GooglePageTest.firstTest" />
       <item itemvalue="TestNG.GooglePageTest.searchTResultTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest" />
+        <item itemvalue="TestNG.TryamMainPageTest.LinkSectionTest" />
         <item itemvalue="TestNG.TryamMainPageTest" />
         <item itemvalue="TestNG.TryamMainPageTest.openPage" />
         <item itemvalue="TestNG.GooglePageTest.searchTResultTest" />
-        <item itemvalue="TestNG.GooglePageTest.firstTest" />
-        <item itemvalue="TestNG.exampples.Google.exampleForYourSite" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707991904171</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="oru">
+      <created>1708018642951</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708018642951</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +448,8 @@
     <MESSAGE value="maven + firefox" />
     <MESSAGE value="norm + Firefox" />
     <MESSAGE value="create new branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new branch" />
+    <MESSAGE value="oru" />
+    <option name="LAST_COMMIT_MESSAGE" value="oru" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

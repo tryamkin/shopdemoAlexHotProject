@@ -9,6 +9,10 @@ public class Constatnt {
 
     public static class Urls {
         public static final String SHOP_DEMO_URL = "https://shopdemo-alex-hot.koyeb.app/";
+        public static final String PAGE2_DEMO_URL = "https://shopdemo-alex-hot.koyeb.app/";
+
     }
+
+
 
 }
