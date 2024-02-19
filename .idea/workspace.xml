@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="oru">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,16 +39,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="my" />
-                    <option name="lastUsedInstant" value="1708017962" />
+                    <option name="branchName" value="tc20" />
+                    <option name="lastUsedInstant" value="1708326980" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1707992340" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="forTestingFeatures" />
-                    <option name="lastUsedInstant" value="1707991814" />
                   </RecentBranch>
                 </list>
               </option>
@@ -115,25 +108,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest">
-    <configuration name="GooglePageTest.searchTResultTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.exaples.exampleForYourSite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.exaples.exampleForYourSite" />
-      <option name="MAIN_CLASS_NAME" value="tests.exaples.exampleForYourSite.GooglePageTest" />
-      <option name="METHOD_NAME" value="searchTResultTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TryamMainPageTest">
     <configuration name="TryamMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -169,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryamMainPageTest.LinkSectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryamMainPageTest.contackUsLink" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -179,7 +154,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="LinkSectionTest" />
+      <option name="METHOD_NAME" value="contackUsLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryamMainPageTest.openPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryamMainPageTest.getInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -197,7 +172,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="openPage" />
+      <option name="METHOD_NAME" value="getInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryamMainPageTest.sellWithUsLinkTestV2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
+      <option name="METHOD_NAME" value="sellWithUsLinkTestV2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -206,19 +199,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
+      <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
+      <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
       <item itemvalue="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest" />
-      <item itemvalue="TestNG.TryamMainPageTest.LinkSectionTest" />
       <item itemvalue="TestNG.TryamMainPageTest" />
-      <item itemvalue="TestNG.TryamMainPageTest.openPage" />
-      <item itemvalue="TestNG.GooglePageTest.searchTResultTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest" />
-        <item itemvalue="TestNG.TryamMainPageTest.LinkSectionTest" />
         <item itemvalue="TestNG.TryamMainPageTest" />
-        <item itemvalue="TestNG.TryamMainPageTest.openPage" />
-        <item itemvalue="TestNG.GooglePageTest.searchTResultTest" />
+        <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
+        <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
+        <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
+        <item itemvalue="TestNG.TryamMainPageTest.LinkSectionNumberOfElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708018642951</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass">
+      <created>1708335450537</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335450537</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +420,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="forTestingFeatures" />
+                        <option value="tc20" />
                       </list>
                     </value>
                   </entry>
@@ -449,7 +449,8 @@
     <MESSAGE value="norm + Firefox" />
     <MESSAGE value="create new branch" />
     <MESSAGE value="oru" />
-    <option name="LAST_COMMIT_MESSAGE" value="oru" />
+    <MESSAGE value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,5 +462,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="driver" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
