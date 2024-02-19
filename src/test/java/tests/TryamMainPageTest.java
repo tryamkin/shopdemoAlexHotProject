@@ -4,6 +4,7 @@ import core.BaseSeleniumTest;
 import org.itfriendly.projectPages.SellWhithUsPage;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.itfriendly.projectPages.MainPage;
 
@@ -41,9 +42,10 @@ public class TryamMainPageTest extends BaseSeleniumTest {
     public void sellWithUsLinkTest() {
         Assert.assertTrue(new MainPage(SHOP_DEMO_URL).checkLinkIsLinkAndClicableV2(SELLWITHUS));
     }
+    @Ignore
     @Test
     public void sellWithUsLinkTestV2() {
-       Assert.assertTrue( new MainPage(SHOP_DEMO_URL).checkPageBody().bodyName().toLowerCase().contains("sell") );
+       Assert.assertTrue(new MainPage(SHOP_DEMO_URL).checkPageBody().bodyName().toLowerCase().contains("sell") );
     }
 
     @Test

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="TC_MainPage_19_LINKS_Ensure that the &quot;Links&quot; section  in the footer contains 3 links -&quot;Contact Us&quot;, &quot;Sell With Us&quot;,&quot;Shipping&quot;">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -401,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708018642951</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass">
+      <created>1708335450537</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335450537</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +449,8 @@
     <MESSAGE value="norm + Firefox" />
     <MESSAGE value="create new branch" />
     <MESSAGE value="oru" />
-    <option name="LAST_COMMIT_MESSAGE" value="oru" />
+    <MESSAGE value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
