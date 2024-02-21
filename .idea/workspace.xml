@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update actions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="solve driver.get" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -464,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708522491941</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="solve driver.get">
+      <created>1708524845862</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1708524845862</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +505,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="verify" />
     <MESSAGE value="update actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="update actions" />
+    <MESSAGE value="solve driver.get" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve driver.get" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
