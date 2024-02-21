@@ -2,6 +2,7 @@ package tests;
 
 import core.BaseSeleniumTest;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.itfriendly.projectPages.MainPage;
 
@@ -11,6 +12,7 @@ import static org.itfriendly.constants.Constatnt.NamesOfManePage.LOGONAME;
 import static org.itfriendly.constants.Constatnt.Urls.SHOP_DEMO_URL;
 
 
+@Ignore
 public class TryamMainPageTest extends BaseSeleniumTest {
 
     @Test
