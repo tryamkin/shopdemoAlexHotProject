@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update pom">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" afterDir="false" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update actions">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +24,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tc20" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -39,12 +40,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="tc20" />
-                    <option name="lastUsedInstant" value="1708326980" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1707992340" />
+                    <option name="lastUsedInstant" value="1708528765" />
                   </RecentBranch>
                 </list>
               </option>
@@ -89,7 +86,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/!Teach/shopdemo-alex-hot&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -108,7 +106,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest">
+  <component name="RunManager" selected="TestNG.TryamMainPageTest">
     <configuration name="TryamMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -207,8 +205,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
         <item itemvalue="TestNG.TryamMainPageTest" />
+        <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
         <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
         <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
         <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
@@ -406,7 +404,56 @@
       <option name="project" value="LOCAL" />
       <updated>1708335450537</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="remote hard code">
+      <created>1708336925448</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1708336925448</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add badge to README.md )">
+      <created>1708519806665</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708519806665</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add badge to README.md and name">
+      <created>1708520050032</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1708520050032</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test">
+      <created>1708520535625</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1708520535625</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test">
+      <created>1708520892216</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1708520892216</updated>
+    </task>
+    <task id="LOCAL-00032" summary="verify">
+      <created>1708521098179</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1708521098180</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update actions">
+      <created>1708521714249</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708521714249</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +461,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="project/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -438,7 +497,13 @@
     <MESSAGE value="create new branch" />
     <MESSAGE value="oru" />
     <MESSAGE value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
+    <MESSAGE value="remote hard code" />
+    <MESSAGE value="add badge to README.md )" />
+    <MESSAGE value="add badge to README.md and name" />
+    <MESSAGE value="test" />
+    <MESSAGE value="verify" />
+    <MESSAGE value="update actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="update actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

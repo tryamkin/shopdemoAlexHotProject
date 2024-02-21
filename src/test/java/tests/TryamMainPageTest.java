@@ -16,47 +16,46 @@ public class TryamMainPageTest extends BaseSeleniumTest {
 
     @Test
     public void openPageTest(){
-        driver.get(SHOP_DEMO_URL);
-        MainPage mainPage = new MainPage();
+        MainPage mainPage = new MainPage(SHOP_DEMO_URL);
         Assert.assertEquals(mainPage.logoName(),LOGONAME);
     }
-@Ignore
+
     @Test
     public void linkSectionNumberOfElementsTest(){
-        MainPage mainPage = new MainPage();
+        MainPage mainPage = new MainPage(SHOP_DEMO_URL);
         Assert.assertEquals(mainPage.listElementsSize(),COUNT_ELEMENTS);
         Assert.assertEquals(mainPage.listElements(0),CONTACT_ELEMENT_NAME);
         Assert.assertEquals(mainPage.listElements(1),SELLWITHUS_ELEMENT_NAME);
         Assert.assertEquals(mainPage.listElements(2),SHIPPING_ELEMENT_NAME);
     }
-    @Ignore
+
     @Test
     public void contackUsLinkTest(){
-      MainPage mainPage = new MainPage();
+      MainPage mainPage = new MainPage(SHOP_DEMO_URL);
       Assert.assertTrue(mainPage.checkLinkIsLinkAndClicable(mainPage.getContuctUsLink()));
       Assert.assertTrue(mainPage.checkOpenedLinkBodyAtribute(mainPage.getContuctUsLink())
               .toLowerCase()
               .contains(CONTACT));
     }
-    @Ignore
+
     @Test
     public void sellWithUsLinkTest() {
-        Assert.assertTrue(new MainPage()
+        Assert.assertTrue(new MainPage(SHOP_DEMO_URL)
                 .checkLinkIsLinkAndClicableV2(SELLWITHUS));
     }
-    @Ignore
+
     @Test
     public void sellWithUsLinkTestV2() {
-       Assert.assertTrue(new MainPage()
+       Assert.assertTrue(new MainPage(SHOP_DEMO_URL)
                .checkPageBody()
                .bodyName()
                .toLowerCase()
                .contains("sell") );
     }
-    @Ignore
+
     @Test
     public void shippingUrlTest(){
-        MainPage mainPage = new MainPage();
+        MainPage mainPage = new MainPage(SHOP_DEMO_URL);
         Assert.assertTrue(mainPage.checkLinkIsLinkAndClicableV2(SHIPPING));
         Assert.assertFalse(mainPage.checkOpenedLinkBodyAtribute(mainPage.getSellWithUsLink())
                 .toLowerCase()

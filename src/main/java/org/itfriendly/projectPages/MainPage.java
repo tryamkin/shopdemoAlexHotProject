@@ -28,7 +28,8 @@ public class MainPage extends BaseSeleniumPage {
 
 
     // constructor - must have
-    public MainPage() {
+    public MainPage(String url) {
+        driver.get(url);
         PageFactory.initElements(driver, this);
     }
 

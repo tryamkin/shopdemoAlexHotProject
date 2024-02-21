@@ -23,11 +23,11 @@ abstract public class BaseSeleniumTest {
     public void setUp() {
 
 
-//        if (OS_NAME_FOR_GIT.equals("Linux")) {
-//            driver = gitRunConfig(driver, BROWSER_NAME);
-//        } else {
-//            driver = chooseDriver(driver, BROWSER_NAME);
-//        }
+        if (OS_NAME_FOR_GIT.equals("Linux")) {
+            driver = gitRunConfig(driver, BROWSER_NAME);
+        } else {
+            driver = chooseDriver(driver, BROWSER_NAME);
+        }
 
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
