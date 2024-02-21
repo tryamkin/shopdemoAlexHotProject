@@ -45,7 +45,7 @@ public class Config {
     public static WebDriver gitRunConfig(WebDriver driver, String browser) {
         switch (browser) {
             case "CHROME":
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.chromedriver().clearDriverCache().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless", "--no-sandbox",
                         "--disable-gpu", "--disable-dev-shm-usage",
@@ -55,7 +55,7 @@ public class Config {
 
                 break;
             case "FIREFOX":
-                WebDriverManager.firefoxdriver().setup();
+                WebDriverManager.firefoxdriver().clearDriverCache().setup();
                 FirefoxOptions optionsf = new FirefoxOptions();
                 optionsf.addArguments("--headless");
                 driver = new FirefoxDriver(optionsf);
@@ -78,11 +78,11 @@ public class Config {
 
         switch (browser) {
             case "CHROME":
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.chromedriver().clearDriverCache().setup();
                 driver = new ChromeDriver();
                 break;
             case "FIREFOX":
-                WebDriverManager.firefoxdriver().setup();
+                WebDriverManager.firefoxdriver().clearDriverCache().setup();
                 driver = new FirefoxDriver();
                 break;
             default:
