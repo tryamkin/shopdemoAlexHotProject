@@ -22,10 +22,7 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
 
-        /**
-         * Тут мы проверяем - если операционка линукс - то применяем настройки для гита. Основная это ключ (--headless)
-         * которая запускает тесты на виртуальном мониторе
-         */
+
 //        if (OS_NAME_FOR_GIT.equals("Linux")) {
 //            driver = gitRunConfig(driver, BROWSER_NAME);
 //        } else {
