@@ -69,15 +69,13 @@ public class Config {
     /**
      * Тут локальный запуск метода с выбором браузера и передачи в драйвер параметров
      *
-     * @param driver
-     * @param browser
-     * @return
+     *
      */
     public static WebDriver chooseDriver(WebDriver driver, String browser) {
 
         switch (browser) {
             case "CHROME":
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.chromedriver().driverVersion("121").setup();
                 driver = new ChromeDriver();
                 break;
             case "FIREFOX":
