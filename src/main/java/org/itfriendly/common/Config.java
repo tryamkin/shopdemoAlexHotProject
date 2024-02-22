@@ -9,9 +9,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 enum Browser {
     CHROME("CHROME"),
-    FIREFOX("FIREFOX"),
-    SAFARI("safari"),
-    EDGE("BULLSHIT");
+    FIREFOX("FIREFOX");
+
 
     private final String name;
 
@@ -32,7 +31,7 @@ public class Config {
      * FIREFOX
      * ETC ...
      */
-    public static final String BROWSER_NAME = Browser.FIREFOX.getName();
+    public static final String BROWSER_NAME = Browser.CHROME.getName();
     /*
      for github action, он стартует на линуксе, и эта строка определяет операционку и далее хром запускается с ключём --headless (с запуском на вируальном мониторе)
      */
@@ -45,7 +44,7 @@ public class Config {
     public static WebDriver gitRunConfig(WebDriver driver, String browser) {
         switch (browser) {
             case "CHROME":
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.firefoxdriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless", "--no-sandbox",
                         "--disable-gpu", "--disable-dev-shm-usage",
