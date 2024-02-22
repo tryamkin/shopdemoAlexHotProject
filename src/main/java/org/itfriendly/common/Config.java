@@ -44,7 +44,7 @@ public class Config {
     public static WebDriver gitRunConfig(WebDriver driver, String browser) {
         switch (browser) {
             case "CHROME":
-                WebDriverManager.chromedriver().driverVersion("121").setup();
+                WebDriverManager.firefoxdriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless", "--no-sandbox",
                         "--disable-gpu", "--disable-dev-shm-usage",
