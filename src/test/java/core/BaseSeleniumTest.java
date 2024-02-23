@@ -18,19 +18,20 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
  */
 
 abstract public class BaseSeleniumTest {
-   // public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
+   public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
+
+
     protected WebDriver driver;
 
     @BeforeClass
     public void setUp() {
+        if (OS_NAME_FOR_GIT.equals("Linux")){
+            ChromeOptions options = new ChromeOptions().addArguments("--headless");
+            driver = new ChromeDriver(options);
 
+        }
+        driver = new ChromeDriver();
         WebDriverManager.chromedriver().driverVersion("122").setup();
-        ChromeOptions options = new ChromeOptions();
-        //    options.addArguments("--headless");
-        options.addArguments("--no-sandbox",
-                "--disable-gpu", "--disable-dev-shm-usage",
-                "--window-size=1920,1080", "--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
         driver.manage().window().maximize();

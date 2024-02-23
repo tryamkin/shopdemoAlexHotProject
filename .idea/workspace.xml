@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update config">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="remote choose browsers">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -487,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708616984756</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="remote choose browsers">
+      <created>1708684723862</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1708684723862</updated>
+    </task>
+    <task id="LOCAL-00040" summary="remote choose browsers">
+      <created>1708684880764</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1708684880764</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="verify pom try1" />
     <MESSAGE value="new workflow" />
     <MESSAGE value="lets test!" />
     <MESSAGE value="test failed" />
@@ -539,7 +551,8 @@
     <MESSAGE value="use driver version in ci tests" />
     <MESSAGE value="something wrong is happen here, using firefox temporary" />
     <MESSAGE value="update config" />
-    <option name="LAST_COMMIT_MESSAGE" value="update config" />
+    <MESSAGE value="remote choose browsers" />
+    <option name="LAST_COMMIT_MESSAGE" value="remote choose browsers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
