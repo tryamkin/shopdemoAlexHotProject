@@ -14,7 +14,7 @@ public class MainPage extends BaseSeleniumPage {
     private List<WebElement> linkSession;
 
 
-    // elements in Links section
+    /* elements in Links section */
     @FindBy(xpath = "//*[@id=\"root\"]/div/footer/div/div[1]/div[2]/div[2]/ul/li[1]/a")
     private WebElement contuctUsLink;
     @FindBy(xpath = "//*[@id=\"root\"]/div/footer/div/div[1]/div[2]/div[2]/ul/li[2]/a")
@@ -22,15 +22,19 @@ public class MainPage extends BaseSeleniumPage {
     @FindBy(xpath = "//body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[2]/div[2]/ul[1]/li[3]/a[1]")
     private WebElement shippingLink;
 
-    //для проеврки открытых страниц
+    /*для проеврки открытых страниц*/
     @FindBy(xpath = "//div[@class='wrapper']/div")
     private WebElement bodyAttribute;
 
 
     // constructor - must have
-    public MainPage(String url) {
-        driver.get(url);
+    public MainPage() {
         PageFactory.initElements(driver, this);
+    }
+
+    public MainPage openPage(String url){
+        driver.get(url);
+        return this;
     }
 
     public WebElement getContuctUsLink() {
@@ -46,12 +50,12 @@ public class MainPage extends BaseSeleniumPage {
     }
 
     public String logoName() {
-        //waiter
+        /*waiter*/
         waitForElementVisibility(logo);
         return logo.getText();
     }
 
-    // перебор элементов в листе
+
     public String listElements(int element) {
         for (int i = 0; i < linkSession.size(); i++) {
             //  System.out.println(linkSession.get(i).getText());
@@ -64,15 +68,6 @@ public class MainPage extends BaseSeleniumPage {
         return linkSession.size();
     }
 
-    /**
-     * * @param link
-     * public void checkLinkExample(WebElement link){
-     * check is link contains "http"
-     * System.out.println(link.getAttribute("href"));
-     * check is link clickable
-     * System.out.println(link.isEnabled());
-     * }
-     */
 
     public boolean checkLinkIsLinkAndClicable(WebElement link) {
         return link.isEnabled();
@@ -86,21 +81,7 @@ public class MainPage extends BaseSeleniumPage {
         return contuctUsLink.isEnabled();
     }
 
-    /**
-     * * @param webElement - передаём из гетеров вебэлемент (например контакт)
-     * public void openLinkExample(WebElement webElement) {
-     * webElement.click();
-     * т.к страницы открываютс в фрейме - тайтл и урл не эффективны, надо смотреть в боди.
-     * System.out.println(driver.getTitle());
-     * System.out.println(driver.getCurrentUrl());
-     * проверка боди - есть ли в старинице атрибуты и как называются
-     * System.out.println(bodyAttribute.getAttribute("class"));
-     * System.out.println(bodyAttribute.getText());
-     * }
-     */
-
-
-    public String checkOpenedLinkBodyAtribute(WebElement webElement) {
+      public String checkOpenedLinkBodyAtribute(WebElement webElement) {
         webElement.click();
         System.out.println(bodyAttribute.getText());
         return bodyAttribute.getText();

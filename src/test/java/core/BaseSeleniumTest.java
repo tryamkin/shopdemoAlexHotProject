@@ -2,12 +2,13 @@ package core;
 
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.time.Duration;
 
-import static org.itfriendly.common.Config.*;
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.IMPLISITY_WAIT;
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
@@ -16,19 +17,21 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
  */
 
 abstract public class BaseSeleniumTest {
-    protected WebDriver driver;
-
+   public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
+   protected WebDriver driver;
 
     @BeforeClass
     public void setUp() {
-
-
-        if (OS_NAME_FOR_GIT.equals("Linux")) {
-            driver = gitRunConfig(driver, BROWSER_NAME);
+        if (OS_NAME_FOR_GIT.equals("Linux")){
+        driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*"
+                ,"--disable-gpu","--no-sandbox","--disable-dev-shm-usage"
+                ,"--headless=new","--window-size=1920,1080"));
         } else {
-            driver = chooseDriver(driver, BROWSER_NAME);
-        }
+//        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
 
+        }
+        driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
         BaseSeleniumPage.setDriver(driver);
@@ -36,15 +39,9 @@ abstract public class BaseSeleniumTest {
     }
 
 
-
     @AfterClass
     public void tearDown() {
-        switch (BROWSER_NAME) {
-            case "CHROME" -> {
-                driver.close();
-                driver.quit();
-            }
-            case "FIREFOX" -> driver.quit();
-        }
+        driver.close();
+        driver.quit();
     }
 }

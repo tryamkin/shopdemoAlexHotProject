@@ -25,11 +25,12 @@ jobs:
       uses: actions/setup-java@v4
       with:
         java-version: '17'
-        distribution: 'temurin'
+        distribution: 'corretto'
         cache: maven
 
     - name: Maven test
       run: mvn test
+
 
     - name: Attach screenshots and reports
       uses: actions/upload-artifact@v4
