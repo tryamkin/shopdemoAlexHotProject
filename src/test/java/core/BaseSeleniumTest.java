@@ -5,6 +5,7 @@ import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -28,6 +29,7 @@ abstract public class BaseSeleniumTest {
         if (OS_NAME_FOR_GIT.equals("Linux")){
             ChromeOptions options = new ChromeOptions().addArguments("--headless");
             driver = new ChromeDriver(options);
+            driver = new FirefoxDriver();
 
         }
         driver = new ChromeDriver();
