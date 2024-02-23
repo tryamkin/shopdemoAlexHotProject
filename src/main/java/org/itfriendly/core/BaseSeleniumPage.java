@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 
-abstract public class BaseSeleniumPage {
+public class BaseSeleniumPage {
         protected static WebDriver driver;
 
         public static void setDriver(WebDriver webDriver){

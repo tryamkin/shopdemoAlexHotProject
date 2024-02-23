@@ -4,8 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -27,10 +26,10 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
         if (OS_NAME_FOR_GIT.equals("Linux")){
-            WebDriverManager.firefoxdriver().setup();
-            FirefoxOptions options = new FirefoxOptions().addArguments("--headless");
-            driver = new FirefoxDriver(options);
-            driver = new FirefoxDriver();
+           // WebDriverManager.firefoxdriver().setup();
+            ChromeOptions options = new ChromeOptions().addArguments("--headless");
+            driver = new ChromeDriver(options);
+
 
         } else {
         WebDriverManager.chromedriver().setup();
