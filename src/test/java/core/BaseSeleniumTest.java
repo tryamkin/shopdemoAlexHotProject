@@ -1,6 +1,5 @@
 package core;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,12 +25,11 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
         if (OS_NAME_FOR_GIT.equals("Linux")){
-           // WebDriverManager.firefoxdriver().setup();
-            driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*","--disable-gpu","--no-sandbox","--disable-dev-shm-usage","--headless=new","--window-size=1920,1080"));
-
-
+        driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*"
+                ,"--disable-gpu","--no-sandbox","--disable-dev-shm-usage"
+                ,"--headless=new","--window-size=1920,1080"));
         } else {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
         }
@@ -45,7 +43,6 @@ abstract public class BaseSeleniumTest {
 
     @AfterClass
     public void tearDown() {
-
         driver.close();
         driver.quit();
     }

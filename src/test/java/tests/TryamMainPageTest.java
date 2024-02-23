@@ -3,7 +3,6 @@ package tests;
 import core.BaseSeleniumTest;
 import org.itfriendly.projectPages.MainPage;
 import org.testng.Assert;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import static org.itfriendly.constants.Constatnt.LinkSectionsElement.*;
@@ -19,7 +18,7 @@ public class TryamMainPageTest extends BaseSeleniumTest {
         MainPage mainPage = new MainPage().openPage(SHOP_DEMO_URL);
         Assert.assertEquals(mainPage.logoName(),LOGONAME);
     }
-@Ignore
+
     @Test
     public void linkSectionNumberOfElementsTest(){
         MainPage mainPage = new MainPage().openPage(SHOP_DEMO_URL);
@@ -29,7 +28,7 @@ public class TryamMainPageTest extends BaseSeleniumTest {
         Assert.assertEquals(mainPage.listElements(2),SHIPPING_ELEMENT_NAME);
     }
 
-    @Ignore
+
     @Test
     public void contackUsLinkTest(){
       MainPage mainPage = new MainPage().openPage(SHOP_DEMO_URL);
@@ -38,13 +37,13 @@ public class TryamMainPageTest extends BaseSeleniumTest {
               .toLowerCase()
               .contains(CONTACT));
     }
-    @Ignore
+
     @Test
     public void sellWithUsLinkTest() {
         Assert.assertTrue(new MainPage().openPage(SHOP_DEMO_URL)
                 .checkLinkIsLinkAndClicableV2(SELLWITHUS));
     }
-@Ignore
+
     @Test
     public void sellWithUsLinkTestV2() {
        Assert.assertTrue(new MainPage().openPage(SHOP_DEMO_URL)
