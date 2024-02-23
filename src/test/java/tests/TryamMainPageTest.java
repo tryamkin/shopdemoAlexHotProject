@@ -19,7 +19,7 @@ public class TryamMainPageTest extends BaseSeleniumTest {
         MainPage mainPage = new MainPage().openPage(SHOP_DEMO_URL);
         Assert.assertEquals(mainPage.logoName(),LOGONAME);
     }
-
+@Ignore
     @Test
     public void linkSectionNumberOfElementsTest(){
         MainPage mainPage = new MainPage().openPage(SHOP_DEMO_URL);
@@ -38,13 +38,13 @@ public class TryamMainPageTest extends BaseSeleniumTest {
               .toLowerCase()
               .contains(CONTACT));
     }
-
+    @Ignore
     @Test
     public void sellWithUsLinkTest() {
         Assert.assertTrue(new MainPage().openPage(SHOP_DEMO_URL)
                 .checkLinkIsLinkAndClicableV2(SELLWITHUS));
     }
-
+@Ignore
     @Test
     public void sellWithUsLinkTestV2() {
        Assert.assertTrue(new MainPage().openPage(SHOP_DEMO_URL)

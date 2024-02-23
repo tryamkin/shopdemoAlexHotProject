@@ -27,8 +27,7 @@ abstract public class BaseSeleniumTest {
     public void setUp() {
         if (OS_NAME_FOR_GIT.equals("Linux")){
            // WebDriverManager.firefoxdriver().setup();
-            ChromeOptions options = new ChromeOptions().addArguments("--headless");
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver(new ChromeOptions().addArguments("--headless"));
 
 
         } else {
