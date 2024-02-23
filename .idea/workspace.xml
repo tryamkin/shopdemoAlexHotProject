@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="something wrong is happen here, using firefox temporary">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +34,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -39,6 +45,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="rebase" />
+                    <option name="lastUsedInstant" value="1708684146" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1708528765" />
@@ -87,7 +97,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -107,6 +117,13 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TryamMainPageTest">
+    <configuration name="ChilkatExample" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChilkatExample" />
+      <module name="shopdemo-alex-hot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TryamMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -135,24 +152,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
       <option name="METHOD_NAME" value="contackUsLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryamMainPageTest.getInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="getInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,19 +196,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ChilkatExample" />
       <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
       <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
-      <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
       <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
       <item itemvalue="TestNG.TryamMainPageTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TryamMainPageTest" />
+        <item itemvalue="Application.ChilkatExample" />
         <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
         <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
         <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
-        <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708606570503</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update config">
+      <created>1708616984756</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1708616984756</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="verify pom" />
     <MESSAGE value="verify pom try1" />
     <MESSAGE value="new workflow" />
     <MESSAGE value="lets test!" />
@@ -533,7 +538,8 @@
     <MESSAGE value="add   WebDriverManager.chromedriver().driverVersion(&quot;121&quot;).setup(); in Config.class" />
     <MESSAGE value="use driver version in ci tests" />
     <MESSAGE value="something wrong is happen here, using firefox temporary" />
-    <option name="LAST_COMMIT_MESSAGE" value="something wrong is happen here, using firefox temporary" />
+    <MESSAGE value="update config" />
+    <option name="LAST_COMMIT_MESSAGE" value="update config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,5 +556,9 @@
         <watch expression="driver" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
