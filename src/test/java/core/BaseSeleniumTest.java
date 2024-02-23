@@ -18,9 +18,7 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
 abstract public class BaseSeleniumTest {
    public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
-
-
-    protected WebDriver driver;
+   protected WebDriver driver;
 
     @BeforeClass
     public void setUp() {
