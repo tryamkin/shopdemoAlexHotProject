@@ -27,7 +27,7 @@ abstract public class BaseSeleniumTest {
     public void setUp() {
         if (OS_NAME_FOR_GIT.equals("Linux")){
            // WebDriverManager.firefoxdriver().setup();
-            driver = new ChromeDriver(new ChromeOptions().addArguments("--headless"));
+            driver = new ChromeDriver(new ChromeOptions().addArguments("--remote-allow-origins=*","--disable-gpu","--no-sandbox","--disable-dev-shm-usage","--headless=new","--window-size=1920,1080"));
 
 
         } else {
@@ -35,10 +35,9 @@ abstract public class BaseSeleniumTest {
         driver = new ChromeDriver();
 
         }
-
+        driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
-        driver.manage().window().maximize();
         BaseSeleniumPage.setDriver(driver);
 
     }
