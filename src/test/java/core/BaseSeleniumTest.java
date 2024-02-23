@@ -1,5 +1,6 @@
 package core;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,7 +24,7 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
 
-      //  WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().driverVersion("122").setup();
         ChromeOptions options = new ChromeOptions();
         //    options.addArguments("--headless");
         options.addArguments("--no-sandbox",
