@@ -27,13 +27,15 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
         if (OS_NAME_FOR_GIT.equals("Linux")){
+            WebDriverManager.firefoxdriver().setup();
             FirefoxOptions options = new FirefoxOptions().addArguments("--headless");
             driver = new FirefoxDriver(options);
             driver = new FirefoxDriver();
 
         } else {
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        WebDriverManager.chromedriver().driverVersion("122").setup();
+
         }
 
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
