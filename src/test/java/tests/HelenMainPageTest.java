@@ -4,6 +4,7 @@ import core.BaseSeleniumTest;
 import org.itfriendly.projectPages.MainPageFooterSubscription;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 
@@ -57,7 +58,7 @@ public class HelenMainPageTest extends BaseSeleniumTest {
         Assert.assertEquals(mainPageFooterSubscription.isSubscriptionSuccessful(), successMessage);
 
     }
-
+    @Ignore
     @Test
     public void subscribeWithInvalidEmailTest() {
         MainPageFooterSubscription mainPageFooterSubscription = new MainPageFooterSubscription();

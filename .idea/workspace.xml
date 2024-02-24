@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="Lena's tests">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="remove from className Footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,18 +78,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/!Teach/shopdemo-alex-hot",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/shopdemo-alex-hot&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\!Teach\shopdemo-alex-hot" />
@@ -106,8 +106,8 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HelenMainPageTestFooter.subscribeMultipleTimesTest">
-    <configuration name="HelenMainPageTestFooter.subscribeMultipleTimesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HelenMainPageTest.subscribeMultipleTimesTest">
+    <configuration name="HelenMainPageTest.subscribeMultipleTimesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +116,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
       <option name="METHOD_NAME" value="subscribeMultipleTimesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -125,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTestFooter.subscribeWithEmptyEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HelenMainPageTest.subscribeWithEmptyEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +134,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
       <option name="METHOD_NAME" value="subscribeWithEmptyEmailTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -143,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTestFooter.subscribeWithInvalidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HelenMainPageTest.subscribeWithInvalidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -152,7 +152,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
       <option name="METHOD_NAME" value="subscribeWithInvalidEmailTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -161,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTestFooter.subscribeWithValidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HelenMainPageTest.subscribeWithValidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -170,7 +170,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
       <option name="METHOD_NAME" value="subscribeWithValidEmailTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -197,18 +197,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeMultipleTimesTest" />
-      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithEmptyEmailTest" />
-      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithInvalidEmailTest" />
-      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithValidEmailTest" />
+      <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
+      <item itemvalue="TestNG.HelenMainPageTest.subscribeWithEmptyEmailTest" />
+      <item itemvalue="TestNG.HelenMainPageTest.subscribeWithInvalidEmailTest" />
+      <item itemvalue="TestNG.HelenMainPageTest.subscribeWithValidEmailTest" />
       <item itemvalue="TestNG.TryamMainPageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeMultipleTimesTest" />
-        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithEmptyEmailTest" />
-        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithInvalidEmailTest" />
-        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithValidEmailTest" />
+        <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
+        <item itemvalue="TestNG.HelenMainPageTest.subscribeWithEmptyEmailTest" />
+        <item itemvalue="TestNG.HelenMainPageTest.subscribeWithInvalidEmailTest" />
+        <item itemvalue="TestNG.HelenMainPageTest.subscribeWithValidEmailTest" />
         <item itemvalue="TestNG.TryamMainPageTest" />
       </list>
     </recent_temporary>
@@ -221,13 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Almost done project">
-      <created>1707929579780</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1707929579780</updated>
     </task>
     <task id="LOCAL-00002" summary="verify githubAction">
       <created>1707929865734</created>
@@ -565,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708688256548</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="remove from className Footer">
+      <created>1708803645491</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1708803645492</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lets test!" />
     <MESSAGE value="test failed" />
     <MESSAGE value="test passed" />
     <MESSAGE value="test fail + screenshot" />
@@ -617,7 +616,8 @@
     <MESSAGE value="update config" />
     <MESSAGE value="remote choose browsers" />
     <MESSAGE value="Lena's tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lena's tests" />
+    <MESSAGE value="remove from className Footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove from className Footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
