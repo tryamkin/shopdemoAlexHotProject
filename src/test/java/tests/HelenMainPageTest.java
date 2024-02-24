@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class HelenMainPageTestFooter extends BaseSeleniumTest {
+public class HelenMainPageTest extends BaseSeleniumTest {
 
 
 
