@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="remote choose browsers">
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +70,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2cM4HOghSbnuUI047iVLPgoyyIp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -114,10 +106,75 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TryamMainPageTest">
-    <configuration name="ChilkatExample" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChilkatExample" />
+  <component name="RunManager" selected="TestNG.HelenMainPageTestFooter.subscribeMultipleTimesTest">
+    <configuration name="HelenMainPageTestFooter.subscribeMultipleTimesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="METHOD_NAME" value="subscribeMultipleTimesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelenMainPageTestFooter.subscribeWithEmptyEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="METHOD_NAME" value="subscribeWithEmptyEmailTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelenMainPageTestFooter.subscribeWithInvalidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="METHOD_NAME" value="subscribeWithInvalidEmailTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelenMainPageTestFooter.subscribeWithValidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTestFooter" />
+      <option name="METHOD_NAME" value="subscribeWithValidEmailTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,74 +196,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryamMainPageTest.contackUsLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="contackUsLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryamMainPageTest.linkSectionNumberOfElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="linkSectionNumberOfElementsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryamMainPageTest.sellWithUsLinkTestV2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="sellWithUsLinkTestV2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ChilkatExample" />
-      <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
-      <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
-      <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
+      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeMultipleTimesTest" />
+      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithEmptyEmailTest" />
+      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithInvalidEmailTest" />
+      <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithValidEmailTest" />
       <item itemvalue="TestNG.TryamMainPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeMultipleTimesTest" />
+        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithEmptyEmailTest" />
+        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithInvalidEmailTest" />
+        <item itemvalue="TestNG.HelenMainPageTestFooter.subscribeWithValidEmailTest" />
         <item itemvalue="TestNG.TryamMainPageTest" />
-        <item itemvalue="Application.ChilkatExample" />
-        <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
-        <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
-        <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
       </list>
     </recent_temporary>
   </component>
