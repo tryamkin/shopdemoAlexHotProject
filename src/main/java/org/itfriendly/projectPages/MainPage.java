@@ -83,7 +83,7 @@ public class MainPage extends BaseSeleniumPage {
 
       public String checkOpenedLinkBodyAtribute(WebElement webElement) {
         webElement.click();
-        System.out.println(bodyAttribute.getText());
+       // System.out.println(bodyAttribute.getText());
         return bodyAttribute.getText();
     }
 

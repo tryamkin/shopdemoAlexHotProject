@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="remove from className Footer">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="ignore subscribeWithInvalidEmailTest()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/shopdemo-alex-hot&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/Aqua/booking&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -106,7 +106,42 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HelenMainPageTest.subscribeMultipleTimesTest">
+  <component name="RunManager" selected="TestNG.ForHelenCheckSubscribeTest">
+    <configuration name="ForHelenCheckSubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForHelenCheckSubscribeTest.checksubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
+      <option name="METHOD_NAME" value="checksubscribeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelenMainPageTest.subscribeMultipleTimesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -161,55 +196,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTest.subscribeWithValidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
-      <option name="METHOD_NAME" value="subscribeWithValidEmailTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryamMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
+      <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
       <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
       <item itemvalue="TestNG.HelenMainPageTest.subscribeWithEmptyEmailTest" />
       <item itemvalue="TestNG.HelenMainPageTest.subscribeWithInvalidEmailTest" />
-      <item itemvalue="TestNG.HelenMainPageTest.subscribeWithValidEmailTest" />
-      <item itemvalue="TestNG.TryamMainPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
+        <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
         <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
         <item itemvalue="TestNG.HelenMainPageTest.subscribeWithEmptyEmailTest" />
         <item itemvalue="TestNG.HelenMainPageTest.subscribeWithInvalidEmailTest" />
-        <item itemvalue="TestNG.HelenMainPageTest.subscribeWithValidEmailTest" />
-        <item itemvalue="TestNG.TryamMainPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,13 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00002" summary="verify githubAction">
-      <created>1707929865734</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1707929865734</updated>
     </task>
     <task id="LOCAL-00003" summary="verify pom">
       <created>1707930021404</created>
@@ -565,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708803645492</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="ignore subscribeWithInvalidEmailTest()">
+      <created>1708803859700</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1708803859701</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test failed" />
     <MESSAGE value="test passed" />
     <MESSAGE value="test fail + screenshot" />
     <MESSAGE value="test Firefox + screenshot" />
@@ -617,7 +616,8 @@
     <MESSAGE value="remote choose browsers" />
     <MESSAGE value="Lena's tests" />
     <MESSAGE value="remove from className Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove from className Footer" />
+    <MESSAGE value="ignore subscribeWithInvalidEmailTest()" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore subscribeWithInvalidEmailTest()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
