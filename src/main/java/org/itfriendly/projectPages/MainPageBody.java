@@ -21,7 +21,7 @@ public class MainPageBody extends BaseSeleniumPage {
     }
 
     public boolean isNextBannerArrowClickable() {
-        waitForElementVisibility(blueSuperSaleBanner);
+     //   waitForElementVisibility(blueSuperSaleBanner);
         return isClickableArrow(blueSuperSaleBanner);
 
     }
@@ -32,7 +32,7 @@ public class MainPageBody extends BaseSeleniumPage {
         return element.isEnabled() && element.isDisplayed();
     }
     public void clickOnArrow(){
-        waitForElementVisibility(blueSuperSaleBanner);
+      //  waitForElementVisibility(blueSuperSaleBanner);
         blueSuperSaleBanner.click();
 
     }}
