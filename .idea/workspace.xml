@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="change element">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="clickOnBannersArrowtestTest() ignoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,27 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00017" summary="test Firefox + screenshot">
-      <created>1707937924731</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1707937924731</updated>
-    </task>
-    <task id="LOCAL-00018" summary="test Firefox + screenshot">
-      <created>1707937976786</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1707937976786</updated>
-    </task>
-    <task id="LOCAL-00019" summary="test Firefox + screenshot">
-      <created>1707938091201</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1707938091201</updated>
     </task>
     <task id="LOCAL-00020" summary="test Chrome + screenshot">
       <created>1707938209343</created>
@@ -563,7 +542,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709145324762</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later.">
+      <created>1709145902521</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1709145902521</updated>
+    </task>
+    <task id="LOCAL-00069" summary="clickOnBannersArrowtestTest()">
+      <created>1709145972615</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1709145972615</updated>
+    </task>
+    <task id="LOCAL-00070" summary="clickOnBannersArrowtestTest() ignoring">
+      <created>1709146628910</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1709146628910</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,9 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add badge to README.md )" />
-    <MESSAGE value="add badge to README.md and name" />
-    <MESSAGE value="test" />
     <MESSAGE value="verify" />
     <MESSAGE value="update actions" />
     <MESSAGE value="update" />
@@ -615,7 +612,10 @@
     <MESSAGE value="change xpath to css" />
     <MESSAGE value="change xpath" />
     <MESSAGE value="change element" />
-    <option name="LAST_COMMIT_MESSAGE" value="change element" />
+    <MESSAGE value="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later." />
+    <MESSAGE value="clickOnBannersArrowtestTest()" />
+    <MESSAGE value="clickOnBannersArrowtestTest() ignoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="clickOnBannersArrowtestTest() ignoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
