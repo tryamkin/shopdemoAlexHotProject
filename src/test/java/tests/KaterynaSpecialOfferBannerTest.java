@@ -9,4 +9,12 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
 
 
     @Test
+    public void clickOnBannersArrowtest() {
+        MainPageBody offerBanner = new MainPageBody();
+        offerBanner.openPage();
+        offerBanner.clickOnArrow();
+        Assert.assertTrue(offerBanner.isNextBannerArrowClickable());
 
+    }
+
+}
