@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update actions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/core/BaseSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/core/BaseSeleniumPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="arrow click on the banner" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +96,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest">
+  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest">
     <configuration name="HelenMainPageTest.subscriptionInputFieldNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -118,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTest.subscriptionSectionNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KaterynaSpecialOfferBannerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -127,9 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
-      <option name="METHOD_NAME" value="subscriptionSectionNameTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -191,19 +187,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
       <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
-      <item itemvalue="TestNG.HelenMainPageTest.subscriptionSectionNameTest" />
       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrow" />
       <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
       <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
         <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrow" />
         <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
         <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
         <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
-        <item itemvalue="TestNG.HelenMainPageTest.subscriptionSectionNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708521714249</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="arrow click on the banner">
+      <created>1709115026053</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709115026053</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +500,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="verify" />
     <MESSAGE value="update actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="update actions" />
+    <MESSAGE value="arrow click on the banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrow click on the banner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
