@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="ignore subscribeWithInvalidEmailTest()">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="arrow click on the banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,7 +29,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -42,10 +39,6 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
-                  <RecentBranch>
-                    <option name="branchName" value="rebase" />
-                    <option name="lastUsedInstant" value="1708684146" />
-                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1708528765" />
@@ -83,11 +76,11 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/Aqua/booking&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/shopdemo-alex-hot&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -106,8 +99,8 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ForHelenCheckSubscribeTest">
-    <configuration name="ForHelenCheckSubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest">
+    <configuration name="HelenMainPageTest.subscriptionInputFieldNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +109,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
+      <option name="METHOD_NAME" value="subscriptionInputFieldNameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KaterynaSpecialOfferBannerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForHelenCheckSubscribeTest.checksubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
-      <option name="METHOD_NAME" value="checksubscribeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
+      <option name="METHOD_NAME" value="clickOnBannersArrowtest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTest.subscribeMultipleTimesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryamMainPageTest.contackUsLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +162,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
-      <option name="METHOD_NAME" value="subscribeMultipleTimesTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
+      <option name="METHOD_NAME" value="contackUsLinkTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,7 +171,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTest.subscribeWithEmptyEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryamMainPageTest.linkSectionNumberOfElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -169,26 +180,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
-      <option name="METHOD_NAME" value="subscribeWithEmptyEmailTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelenMainPageTest.subscribeWithInvalidEmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
-      <option name="METHOD_NAME" value="subscribeWithInvalidEmailTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
+      <option name="METHOD_NAME" value="linkSectionNumberOfElementsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
-      <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
-      <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
-      <item itemvalue="TestNG.HelenMainPageTest.subscribeWithEmptyEmailTest" />
-      <item itemvalue="TestNG.HelenMainPageTest.subscribeWithInvalidEmailTest" />
+      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
+      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
+      <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
+      <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
+      <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
-        <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
-        <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
-        <item itemvalue="TestNG.HelenMainPageTest.subscribeWithEmptyEmailTest" />
-        <item itemvalue="TestNG.HelenMainPageTest.subscribeWithInvalidEmailTest" />
+        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
+        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
+        <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
+        <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
+        <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +214,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Almost done project">
+      <created>1707929579780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707929579780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="verify githubAction">
+      <created>1707929865734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707929865734</updated>
     </task>
     <task id="LOCAL-00003" summary="verify pom">
       <created>1707930021404</created>
@@ -439,133 +446,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708521714249</updated>
     </task>
-    <task id="LOCAL-00034" summary="update">
-      <created>1708592033503</created>
+    <task id="LOCAL-00034" summary="arrow click on the banner">
+      <created>1709115026053</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1708592033503</updated>
+      <updated>1709115026053</updated>
     </task>
-    <task id="LOCAL-00035" summary="add   WebDriverManager.chromedriver().driverVersion(&quot;121&quot;).setup(); in Config.class">
-      <created>1708606118496</created>
+    <task id="LOCAL-00035" summary="arrow click on the banner">
+      <created>1709115363069</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1708606118496</updated>
+      <updated>1709115363069</updated>
     </task>
-    <task id="LOCAL-00036" summary="use driver version in ci tests">
-      <created>1708606400810</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1708606400810</updated>
-    </task>
-    <task id="LOCAL-00037" summary="something wrong is happen here, using firefox temporary">
-      <created>1708606570503</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1708606570503</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update config">
-      <created>1708616984756</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1708616984756</updated>
-    </task>
-    <task id="LOCAL-00039" summary="remote choose browsers">
-      <created>1708684723862</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1708684723862</updated>
-    </task>
-    <task id="LOCAL-00040" summary="remote choose browsers">
-      <created>1708684880764</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1708684880764</updated>
-    </task>
-    <task id="LOCAL-00041" summary="remote choose browsers">
-      <created>1708686011905</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686011905</updated>
-    </task>
-    <task id="LOCAL-00042" summary="remote choose browsers">
-      <created>1708686276347</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686276347</updated>
-    </task>
-    <task id="LOCAL-00043" summary="remote choose browsers">
-      <created>1708686450165</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686450165</updated>
-    </task>
-    <task id="LOCAL-00044" summary="remote choose browsers">
-      <created>1708686739091</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686739091</updated>
-    </task>
-    <task id="LOCAL-00045" summary="remote choose browsers">
-      <created>1708686921623</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686921623</updated>
-    </task>
-    <task id="LOCAL-00046" summary="remote choose browsers">
-      <created>1708687277425</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1708687277425</updated>
-    </task>
-    <task id="LOCAL-00047" summary="remote choose browsers">
-      <created>1708687532180</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1708687532180</updated>
-    </task>
-    <task id="LOCAL-00048" summary="remote choose browsers">
-      <created>1708687987781</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1708687987781</updated>
-    </task>
-    <task id="LOCAL-00049" summary="remote choose browsers">
-      <created>1708688256548</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1708688256548</updated>
-    </task>
-    <task id="LOCAL-00052" summary="remove from className Footer">
-      <created>1708803645491</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803645492</updated>
-    </task>
-    <task id="LOCAL-00053" summary="ignore subscribeWithInvalidEmailTest()">
-      <created>1708803859700</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803859701</updated>
-    </task>
-    <option name="localTasksCounter" value="54" />
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,6 +487,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Almost done project" />
+    <MESSAGE value="verify githubAction" />
+    <MESSAGE value="verify pom" />
+    <MESSAGE value="verify pom try1" />
+    <MESSAGE value="new workflow" />
+    <MESSAGE value="lets test!" />
+    <MESSAGE value="test failed" />
     <MESSAGE value="test passed" />
     <MESSAGE value="test fail + screenshot" />
     <MESSAGE value="test Firefox + screenshot" />
@@ -608,16 +510,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="verify" />
     <MESSAGE value="update actions" />
-    <MESSAGE value="update" />
-    <MESSAGE value="add   WebDriverManager.chromedriver().driverVersion(&quot;121&quot;).setup(); in Config.class" />
-    <MESSAGE value="use driver version in ci tests" />
-    <MESSAGE value="something wrong is happen here, using firefox temporary" />
-    <MESSAGE value="update config" />
-    <MESSAGE value="remote choose browsers" />
-    <MESSAGE value="Lena's tests" />
-    <MESSAGE value="remove from className Footer" />
-    <MESSAGE value="ignore subscribeWithInvalidEmailTest()" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore subscribeWithInvalidEmailTest()" />
+    <MESSAGE value="arrow click on the banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrow click on the banner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,9 +528,5 @@
         <watch expression="driver" language="JAVA" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

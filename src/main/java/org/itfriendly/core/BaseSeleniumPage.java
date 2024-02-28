@@ -21,5 +21,6 @@ public class BaseSeleniumPage {
             new WebDriverWait(driver, Duration.ofSeconds(Constatnt.TimeoutVariables.EXPLISITY_WAIT)).until(ExpectedConditions.visibilityOf(element));
             return element;
         }
+
     }
 
