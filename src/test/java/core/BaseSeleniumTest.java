@@ -25,7 +25,9 @@ abstract public class BaseSeleniumTest {
     public void setUp() {
         if (OS_NAME_FOR_GIT.equals("Linux")){
         driver = new ChromeDriver(new ChromeOptions().addArguments(
-               "--disable-gpu","--no-sandbox","--headless"));
+                "--remote-allow-origins=*","--disable-extensions"
+                ,"--disable-gpu","--no-sandbox","--disable-dev-shm-usage"
+                ,"--headless=new","--window-size=1920,1080"));
         } else {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
