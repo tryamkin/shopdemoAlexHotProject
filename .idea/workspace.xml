@@ -99,7 +99,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest">
+  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest">
     <configuration name="HelenMainPageTest.subscriptionInputFieldNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -198,8 +198,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
         <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
+        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
         <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
         <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
         <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
