@@ -2,6 +2,7 @@ package tests;
 
 import core.BaseSeleniumTest;
 import org.itfriendly.projectPages.MainPageBody;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
@@ -12,7 +13,8 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
         MainPageBody offerBanner = new MainPageBody();
         offerBanner.openPage();
         offerBanner.clickOnArrow();
-     //   Assert.assertTrue(offerBanner.isNextBannerArrowClickable());
+        System.out.println("Last check  offerBanner.isNextBannerArrowClickable() -  " + offerBanner.isNextBannerArrowClickable());
+        Assert.assertTrue(offerBanner.isNextBannerArrowClickable());
     }
 
 }

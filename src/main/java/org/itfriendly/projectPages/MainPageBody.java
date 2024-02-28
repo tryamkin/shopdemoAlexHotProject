@@ -13,7 +13,7 @@ public class MainPageBody extends BaseSeleniumPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//*[@class=\"react-multiple-carousel__arrow react-multiple-carousel__arrow--right\"]")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/main/div/div/div/div/div[1]/div/div/button[2]")
     private WebElement blueSuperSaleBanner;
 
     public void openPage() {
@@ -26,12 +26,14 @@ public class MainPageBody extends BaseSeleniumPage {
     }
 
     private boolean isClickableArrow(WebElement element) {
-       return element.isEnabled() && element.isDisplayed();
+        System.out.println("isEnabled() blueSuperSaleBanner - " + element.isEnabled() );
+        System.out.println("isDisplayed() blueSuperSaleBanner -  " + element.isDisplayed());
+        return element.isEnabled() && element.isDisplayed();
     }
     public void clickOnArrow(){
         waitForElementVisibility(blueSuperSaleBanner);
         blueSuperSaleBanner.click();
-        System.out.println("Click");
+        System.out.println("Click on blueSuperSaleBanner" );
 
     }
 }
