@@ -33,7 +33,7 @@ public class MainPageBody extends MainPage {
 
     }
 
-    public WebElement nextBannerApeared() {
+    public WebElement nextBannerAppeared() {
         return blueSuperSaleBannerApears;
     }
 }
