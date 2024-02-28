@@ -7,15 +7,18 @@ import static org.itfriendly.constants.Constatnt.Urls.SHOP_DEMO_URL;
 
 public class MainPageBody extends MainPage {
     @FindBy(xpath = "//*[@class='react-multiple-carousel__arrow react-multiple-carousel__arrow--right']")
-    private WebElement blueSuperSaleBanner;
+    private WebElement arrowRightClick;
+
+    @FindBy(xpath = "//li[@class='react-multi-carousel-item react-multi-carousel-item--active carousel-slider-item']")
+    private WebElement blueSuperSaleBannerApears;
 
     public void openPage() {
         driver.get(SHOP_DEMO_URL);
     }
 
     public boolean isNextBannerArrowClickable() {
-        waitForElementVisibility(blueSuperSaleBanner);
-        return isClickableArrow(blueSuperSaleBanner);
+        waitForElementVisibility(arrowRightClick);
+        return isClickableArrow(arrowRightClick);
 
     }
 
@@ -23,8 +26,15 @@ public class MainPageBody extends MainPage {
 
         return element.isEnabled() && element.isDisplayed();
     }
-    public void clickOnArrow(){
-        waitForElementVisibility(blueSuperSaleBanner);
-        blueSuperSaleBanner.click();
 
-    }}
+    public void clickOnArrow() {
+        waitForElementVisibility(arrowRightClick);
+        arrowRightClick.click();
+
+    }
+
+    public WebElement nextBannerApeared() {
+        return blueSuperSaleBannerApears;
+    }
+}
+
