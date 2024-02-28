@@ -15,6 +15,7 @@ public class MainPageBody extends BaseSeleniumPage {
 
     @FindBy(xpath = "//*[@class='react-multiple-carousel__arrow react-multiple-carousel__arrow--right']")
     private WebElement blueSuperSaleBanner;
+
     public void openPage() {
         driver.get(SHOP_DEMO_URL);
     }
@@ -26,7 +27,8 @@ public class MainPageBody extends BaseSeleniumPage {
     }
 
     private boolean isClickableArrow(WebElement element) {
-
+        System.out.println(element.isEnabled());
+        System.out.println(element.isDisplayed());
         return element.isEnabled() && element.isDisplayed();
     }
     public void clickOnArrow(){

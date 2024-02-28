@@ -9,10 +9,9 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
 
 
     @Test
-    public void clickOnBannersArrowtest() throws InterruptedException {
+    public void clickOnBannersArrowtest() {
         MainPageBody offerBanner = new MainPageBody();
         offerBanner.openPage();
-        Thread.sleep(2000);
         offerBanner.clickOnArrow();
         Assert.assertTrue(offerBanner.isNextBannerArrowClickable());
 

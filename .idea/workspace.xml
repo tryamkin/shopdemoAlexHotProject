@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="add ForHelenCheckSubscribeTest class and rest assured dependency">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/KetTestPageNotAddedInGit.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
     </list>
@@ -222,13 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00004" summary="verify pom">
-      <created>1707930302553</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1707930302553</updated>
     </task>
     <task id="LOCAL-00005" summary="verify pom">
       <created>1707931377310</created>
@@ -566,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708876052690</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }">
+      <created>1709141310890</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1709141310891</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test fail + screenshot" />
     <MESSAGE value="test Firefox + screenshot" />
     <MESSAGE value="test Chrome + screenshot" />
     <MESSAGE value="maven otyavilsya" />
@@ -618,7 +616,8 @@
     <MESSAGE value="remove from className Footer" />
     <MESSAGE value="ignore subscribeWithInvalidEmailTest()" />
     <MESSAGE value="add ForHelenCheckSubscribeTest class and rest assured dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ForHelenCheckSubscribeTest class and rest assured dependency" />
+    <MESSAGE value="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }" />
+    <option name="LAST_COMMIT_MESSAGE" value="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
