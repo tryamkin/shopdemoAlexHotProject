@@ -13,7 +13,7 @@ public class MainPageBody extends BaseSeleniumPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//*[@class='react-multiple-carousel__arrow react-multiple-carousel__arrow--right']")
+    @FindBy(xpath = "//*[@class=\"react-multiple-carousel__arrow react-multiple-carousel__arrow--right\"]")
     private WebElement blueSuperSaleBanner;
 
     public void openPage() {

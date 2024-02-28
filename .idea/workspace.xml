@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="refactoring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,20 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00005" summary="verify pom">
-      <created>1707931377310</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1707931377310</updated>
-    </task>
-    <task id="LOCAL-00006" summary="verify pom try1">
-      <created>1707932313572</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1707932313572</updated>
     </task>
     <task id="LOCAL-00007" summary="verify pom try1">
       <created>1707933143615</created>
@@ -565,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709141310891</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="try1">
+      <created>1709142176805</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1709142176805</updated>
+    </task>
+    <task id="LOCAL-00057" summary="refactoring">
+      <created>1709142359369</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1709142359369</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,8 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test Firefox + screenshot" />
-    <MESSAGE value="test Chrome + screenshot" />
     <MESSAGE value="maven otyavilsya" />
     <MESSAGE value="maven + firefox" />
     <MESSAGE value="norm + Firefox" />
@@ -617,7 +611,9 @@
     <MESSAGE value="ignore subscribeWithInvalidEmailTest()" />
     <MESSAGE value="add ForHelenCheckSubscribeTest class and rest assured dependency" />
     <MESSAGE value="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }" />
-    <option name="LAST_COMMIT_MESSAGE" value="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }" />
+    <MESSAGE value="try1" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
