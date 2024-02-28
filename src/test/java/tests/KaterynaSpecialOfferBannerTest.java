@@ -22,8 +22,6 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
         MainPageBody blueBanner = new MainPageBody();
         blueBanner.openPage();
         blueBanner.clickOnArrow();
-
         Assert.assertTrue(blueBanner.nextBannerAppeared().isDisplayed());
     }
-
 }

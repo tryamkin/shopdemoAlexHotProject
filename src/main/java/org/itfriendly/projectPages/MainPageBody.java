@@ -30,7 +30,6 @@ public class MainPageBody extends MainPage {
     public void clickOnArrow() {
         waitForElementVisibility(arrowRightClick);
         arrowRightClick.click();
-
     }
 
     public WebElement nextBannerAppeared() {
