@@ -21,18 +21,17 @@ public class MainPageBody extends BaseSeleniumPage {
     }
 
     public boolean isNextBannerArrowClickable() {
-     //   waitForElementVisibility(blueSuperSaleBanner);
+        waitForElementVisibility(blueSuperSaleBanner);
         return isClickableArrow(blueSuperSaleBanner);
-
     }
 
     private boolean isClickableArrow(WebElement element) {
-        System.out.println(element.isEnabled());
-        System.out.println(element.isDisplayed());
-        return element.isEnabled() && element.isDisplayed();
+       return element.isEnabled() && element.isDisplayed();
     }
     public void clickOnArrow(){
-      //  waitForElementVisibility(blueSuperSaleBanner);
+        waitForElementVisibility(blueSuperSaleBanner);
         blueSuperSaleBanner.click();
+        System.out.println("Click");
 
-    }}
+    }
+}

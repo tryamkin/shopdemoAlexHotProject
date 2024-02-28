@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="refactoring" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="change xpath |&quot;|">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,13 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00007" summary="verify pom try1">
-      <created>1707933143615</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1707933143615</updated>
     </task>
     <task id="LOCAL-00008" summary="new workflow">
       <created>1707933390284</created>
@@ -561,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709142359369</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="change xpath |&quot;|">
+      <created>1709142632938</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1709142632939</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="maven otyavilsya" />
     <MESSAGE value="maven + firefox" />
     <MESSAGE value="norm + Firefox" />
     <MESSAGE value="create new branch" />
@@ -613,7 +614,8 @@
     <MESSAGE value="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }" />
     <MESSAGE value="try1" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="change xpath |&quot;|" />
+    <option name="LAST_COMMIT_MESSAGE" value="change xpath |&quot;|" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
