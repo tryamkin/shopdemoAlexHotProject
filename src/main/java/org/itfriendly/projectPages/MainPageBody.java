@@ -13,7 +13,7 @@ public class MainPageBody extends BaseSeleniumPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//button[@aria-label='Go to next slide']")
+    @FindBy(css = "button[aria-label='Go to next slide']")
     private WebElement blueSuperSaleBanner;
 
     public void openPage() {
