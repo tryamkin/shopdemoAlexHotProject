@@ -13,19 +13,18 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
         MainPageBody clickOnOfferBanner = new MainPageBody();
         clickOnOfferBanner.openPage();
         clickOnOfferBanner.clickOnArrow();
+
         Assert.assertTrue(clickOnOfferBanner.isNextBannerArrowClickable());
 
     }
+
     @Test
-    public void checkIsClickRedirectstest(){
+    public void checkIsClickRedirectstest() {
         MainPageBody blueBanner = new MainPageBody();
         blueBanner.openPage();
         blueBanner.clickOnArrow();
-        blueBanner.nextBannerApeared().isDisplayed();
 
-Assert.assertTrue( blueBanner.nextBannerApeared().isDisplayed());
-
-
+        Assert.assertTrue(blueBanner.nextBannerAppeared().isDisplayed());
     }
 
 }
