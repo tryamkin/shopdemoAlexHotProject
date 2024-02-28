@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="xmmm...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,13 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00009" summary="new workflow">
-      <created>1707933508401</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1707933508401</updated>
     </task>
     <task id="LOCAL-00010" summary="lets test!">
       <created>1707934722316</created>
@@ -565,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709143152863</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]">
+      <created>1709143754730</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1709143754730</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="norm + Firefox" />
     <MESSAGE value="create new branch" />
     <MESSAGE value="oru" />
     <MESSAGE value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
@@ -617,7 +614,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="change xpath |&quot;|" />
     <MESSAGE value="xmmm..." />
-    <option name="LAST_COMMIT_MESSAGE" value="xmmm..." />
+    <MESSAGE value="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]" />
+    <option name="LAST_COMMIT_MESSAGE" value="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
