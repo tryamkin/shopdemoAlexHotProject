@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="change xpath to css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,20 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00010" summary="lets test!">
-      <created>1707934722316</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1707934722316</updated>
-    </task>
-    <task id="LOCAL-00011" summary="lets test!">
-      <created>1707935751735</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1707935751735</updated>
     </task>
     <task id="LOCAL-00012" summary="lets test!">
       <created>1707935886741</created>
@@ -563,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709143754730</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="change xpath //button[@aria-label='Go to next slide']">
+      <created>1709144026841</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1709144026841</updated>
+    </task>
+    <task id="LOCAL-00062" summary="change xpath to css">
+      <created>1709144313063</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1709144313063</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,8 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create new branch" />
-    <MESSAGE value="oru" />
     <MESSAGE value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
     <MESSAGE value="remote hard code" />
     <MESSAGE value="add badge to README.md )" />
@@ -615,7 +611,9 @@
     <MESSAGE value="change xpath |&quot;|" />
     <MESSAGE value="xmmm..." />
     <MESSAGE value="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]" />
-    <option name="LAST_COMMIT_MESSAGE" value="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]" />
+    <MESSAGE value="change xpath //button[@aria-label='Go to next slide']" />
+    <MESSAGE value="change xpath to css" />
+    <option name="LAST_COMMIT_MESSAGE" value="change xpath to css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
