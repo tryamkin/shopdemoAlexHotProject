@@ -17,7 +17,6 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
         Assert.assertTrue(clickOnOfferBanner.isNextBannerArrowClickable());
 
     }
-
     @Test
     public void checkIsClickRedirectstest() {
         MainPageBody blueBanner = new MainPageBody();
