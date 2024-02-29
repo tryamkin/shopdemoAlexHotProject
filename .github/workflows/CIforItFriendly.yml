@@ -42,7 +42,6 @@ jobs:
 
   Run-on-FireFox:
     runs-on: ubuntu-latest
-    needs: Run-on-Chrome
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 17
