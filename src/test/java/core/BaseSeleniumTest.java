@@ -28,10 +28,17 @@ abstract public class BaseSeleniumTest {
 
     @BeforeClass
     public void setUp() {
-
+        /**
+         * тут проверка на операционку - под гитом она линукс и если ос - линукс то мы применяем логику
+         * прогона тестов как для гита.
+         * */
         if (OS_NAME_FOR_GIT.equals("Linux")) {
             Properties properties = new Properties();
             properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
+            /**Тут мы береём переменную - ENV_BROWSER_NAME: (например - "FIREFOX") из файла CIforItFriendly.yml
+             * и передаём её в метод startBrowser, который применит драйвера для хрома или фаерфокса
+             * */
+            //TODO для вывода и перепроверки, потом убрать )))
             String options = properties.getProperty(ENV_BROWSER_NAME);
             System.out.println(options + "  ENV_BROWSER_NAME OPTION");
             startBrowser(options);
@@ -47,6 +54,11 @@ abstract public class BaseSeleniumTest {
 
     }
 
+
+    /**
+     * тут логика и дравера для разных браузеров - хрому хромье, лисе - лисье )))
+     * вызывается в методе setUp()
+     */
     public void startBrowser(String Browser) {
         if (Browser.equals("CHROME")) {
             driver = new ChromeDriver(new ChromeOptions().addArguments(

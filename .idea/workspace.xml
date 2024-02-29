@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="try12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="Final check">
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,13 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00044" summary="remote choose browsers">
-      <created>1708686739091</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686739091</updated>
     </task>
     <task id="LOCAL-00045" summary="remote choose browsers">
       <created>1708686921623</created>
@@ -564,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709196332440</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Final check">
+      <created>1709196892984</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1709196892984</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="clickOnBannersArrowtestTest()" />
     <MESSAGE value="clickOnBannersArrowtestTest() ignoring" />
     <MESSAGE value="idea!" />
     <MESSAGE value="idea 2" />
@@ -616,7 +614,8 @@
     <MESSAGE value="try10 add string option" />
     <MESSAGE value="try11 hope it last check" />
     <MESSAGE value="try12" />
-    <option name="LAST_COMMIT_MESSAGE" value="try12" />
+    <MESSAGE value="Final check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
