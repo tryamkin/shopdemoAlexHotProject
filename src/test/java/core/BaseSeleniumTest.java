@@ -27,16 +27,15 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
 
-
-        if (OS_NAME_FOR_GIT.equals("Linux")) {
-            if (ENV_CRHOME()) {
-                driver = new ChromeDriver(new ChromeOptions().addArguments(
-                        "--headless", "--window-size=1920,1080"));
-                System.out.println("RUN ON CHROME");
-                Capabilities capabilities = ((ChromeDriver) driver).getCapabilities();
-                System.out.println("Browser Name - " + capabilities.getBrowserName());
-                System.out.println("Browser version - " + capabilities.getBrowserVersion());
-            } else {
+        if (OS_NAME_FOR_GIT.equals("Linux")&&ENV_CRHOME() == true) {
+            driver = new ChromeDriver(new ChromeOptions().addArguments(
+                    "--headless", "--window-size=1920,1080"));
+            System.out.println("RUN ON CHROME");
+            Capabilities capabilities = ((ChromeDriver) driver).getCapabilities();
+            System.out.println("Browser Name - " + capabilities.getBrowserName());
+            System.out.println("Browser version - " + capabilities.getBrowserVersion());
+        }
+        else if (OS_NAME_FOR_GIT.equals("Linux") && ENV_CRHOME() == false){
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
@@ -44,7 +43,7 @@ abstract public class BaseSeleniumTest {
                 Capabilities capabilities = ((FirefoxDriver) driver).getCapabilities();
                 System.out.println("Browser Name - " + capabilities.getBrowserName());
                 System.out.println("Browser version - " + capabilities.getBrowserVersion());
-            }
+
         } else {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
