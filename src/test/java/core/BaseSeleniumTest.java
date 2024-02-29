@@ -2,6 +2,7 @@ package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.itfriendly.core.BaseSeleniumPage;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -21,7 +22,6 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
 abstract public class BaseSeleniumTest {
     public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
-   // private static Boolean ENV_CHROME = true;
     protected WebDriver driver;
 
     @BeforeClass
@@ -32,10 +32,18 @@ abstract public class BaseSeleniumTest {
             if (ENV_CRHOME()) {
                 driver = new ChromeDriver(new ChromeOptions().addArguments(
                         "--headless", "--window-size=1920,1080"));
+                System.out.println("RUN ON CHROME");
+                Capabilities capabilities = ((ChromeDriver) driver).getCapabilities();
+                System.out.println("Browser Name - " + capabilities.getBrowserName());
+                System.out.println("Browser version - " + capabilities.getBrowserVersion());
             } else {
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
+                System.out.println("RUN ON FIREFOX");
+                Capabilities capabilities = ((FirefoxDriver) driver).getCapabilities();
+                System.out.println("Browser Name - " + capabilities.getBrowserName());
+                System.out.println("Browser version - " + capabilities.getBrowserVersion());
             }
         } else {
             WebDriverManager.chromedriver().setup();
