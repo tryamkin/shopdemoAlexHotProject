@@ -31,17 +31,16 @@ jobs:
       env:
         ENV_BROWSER_NAME: "CHROME"
 
-  jobs:
-  failed:
-    runs-on: ubuntu-latest
-    steps:  Attach screenshots and reports
-      - uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-      - name: screenshots-and-report
+
+    - name: Attach screenshots and reports
+      uses: actions/upload-artifact@v4
+      if: failure()
+      with:
+        name: screenshots-and-report
         path: |
-          screenshots
-          target/surefire-reports/emailable-report.html
+         screenshots
+         target/surefire-reports/emailable-report.html
+  
 
   Run-on-FireFox:
     runs-on: ubuntu-latest
