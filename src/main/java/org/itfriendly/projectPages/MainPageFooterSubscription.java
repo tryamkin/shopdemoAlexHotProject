@@ -87,7 +87,7 @@ public class MainPageFooterSubscription extends BaseSeleniumPage {
 
 
     public static String generateRandomEmail() {
-        String[] domains = {"example.com", "test.com"};
+        String[] domains = {"example.com", "test.com", "gmail.com", "randommail.org"};
         String username = generateRandomString(8); // Change the length as needed
                 String domain = domains[new Random().nextInt(domains.length)];
         return username + "@" + domain;
