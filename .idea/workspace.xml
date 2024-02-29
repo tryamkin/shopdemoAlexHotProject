@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="add screenshot after fail test">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="experiment2">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,20 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00047" summary="remote choose browsers">
-      <created>1708687532180</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1708687532180</updated>
-    </task>
-    <task id="LOCAL-00048" summary="remote choose browsers">
-      <created>1708687987781</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1708687987781</updated>
     </task>
     <task id="LOCAL-00049" summary="remote choose browsers">
       <created>1708688256548</created>
@@ -565,7 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709201321016</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="experiment1">
+      <created>1709202056391</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1709202056392</updated>
+    </task>
+    <task id="LOCAL-00099" summary="experiment2">
+      <created>1709202226193</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1709202226193</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,8 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="idea 2" />
-    <MESSAGE value="idea 3" />
     <MESSAGE value="run on firefox" />
     <MESSAGE value="run on firefox correct )))" />
     <MESSAGE value="run on Chrome" />
@@ -617,7 +613,9 @@
     <MESSAGE value="Final check" />
     <MESSAGE value="ready to use + add comments" />
     <MESSAGE value="add screenshot after fail test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add screenshot after fail test" />
+    <MESSAGE value="experiment1" />
+    <MESSAGE value="experiment2" />
+    <option name="LAST_COMMIT_MESSAGE" value="experiment2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

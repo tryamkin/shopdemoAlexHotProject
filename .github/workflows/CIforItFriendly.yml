@@ -31,10 +31,12 @@ jobs:
       env:
         ENV_BROWSER_NAME: "CHROME"
 
-
-    - name: Attach screenshots and reports
+  Get-ScreenShot:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Attach screenshots and reports Chrome
       uses: actions/upload-artifact@v4
-      if: failure()
+      if: ${{github.event.push.conclusion=='failure'}}
       with:
         name: screenshots-and-report
         path: |
@@ -58,7 +60,7 @@ jobs:
         env:
           ENV_BROWSER_NAME: "FIREFOX"
 
-      - name: Attach screenshots and reports
+      - name: Attach screenshots and reports FireFox
         uses: actions/upload-artifact@v4
         if: failure()
         with:
