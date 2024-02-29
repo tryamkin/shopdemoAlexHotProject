@@ -34,7 +34,7 @@ abstract public class BaseSeleniumTest {
             properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
             String options = properties.getProperty(ENV_BROWSER_NAME);
             System.out.println(options + "  ENV_BROWSER_NAME OPTION");
-              startBrowser(ENV_BROWSER_NAME);
+              startBrowser(options);
         } else {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -53,7 +53,7 @@ abstract public class BaseSeleniumTest {
 
     public void startBrowser(String Browser){
         if (Browser.equals("CHROME")){
-            WebDriverManager.chromedriver().setup();
+           // WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(new ChromeOptions().addArguments(
                     "--headless", "--window-size=1920,1080"));
             System.out.println("RUN ON CHROME");
@@ -62,7 +62,7 @@ abstract public class BaseSeleniumTest {
             System.out.println("Browser version - " + capabilities.getBrowserVersion());
         }
         else {
-            WebDriverManager.firefoxdriver().setup();
+           // WebDriverManager.firefoxdriver().setup();
             FirefoxOptions options = new FirefoxOptions();
             options.addArguments("--headless");
             driver = new FirefoxDriver(options);
@@ -76,7 +76,7 @@ abstract public class BaseSeleniumTest {
 
     @AfterClass
     public void tearDown() {
-        if (ENV_CRHOME()){
+        if (ENV_BROWSER_NAME.equals("CHROME")){
         driver.close();
         driver.quit();}
         else {
