@@ -47,8 +47,8 @@ jobs:
       - run: echo "WOW !!!!!!  "
 
   Bad-Luck:
-    runs-on:
-    needs: [Run-on-Chrome,Run-on-FireFox]
+    runs-on: ubuntu-latest
+    needs: [Run-on-FireFox]
     if: failure()
     steps:
         - run: echo "FAIL !!!! "
