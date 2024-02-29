@@ -29,7 +29,7 @@ jobs:
     - name: Maven test
       run: mvn test
       env:
-        ENV_CHROME: true
+        ENV_CHROME: false
 
     - name: Attach screenshots and reports
       uses: actions/upload-artifact@v4
@@ -54,7 +54,7 @@ jobs:
       - name: Maven test
         run: mvn test
         env:
-          ENV_CHROME: false
+          ENV_CHROME: true
 
       - name: Attach screenshots and reports
         uses: actions/upload-artifact@v4
