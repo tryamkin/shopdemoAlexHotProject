@@ -24,7 +24,7 @@ abstract public class BaseSeleniumTest {
 
     @BeforeClass
     public void setUp() {
-        if (OS_NAME_FOR_GIT.equals("Linux")){
+        if (!OS_NAME_FOR_GIT.equals("Linux")){
             FirefoxOptions options = new FirefoxOptions();
             options.addArguments("--headless");
             driver = new FirefoxDriver(options);
@@ -49,6 +49,6 @@ abstract public class BaseSeleniumTest {
     @AfterClass
     public void tearDown() {
         driver.close();
-        driver.quit();
+      //  driver.quit();
     }
 }
