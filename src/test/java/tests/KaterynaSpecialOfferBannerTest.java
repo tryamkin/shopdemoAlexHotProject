@@ -10,6 +10,8 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
 
     @Test
     public void clickOnBannersArrowtestTest() {
+
+        System.out.println("clickOnBannersArrowtestTest() run" );
         MainPageBody offerBanner = new MainPageBody();
         offerBanner.openPage();
         offerBanner.clickOnArrow();
