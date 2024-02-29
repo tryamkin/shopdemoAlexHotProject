@@ -43,7 +43,7 @@ jobs:
   Good-Job:
     runs-on: ubuntu-latest
     needs: Bad-Luck
-    if: skip()
+    if: cancelled()
     steps:
       - run: echo "WOW !!!!!!  "
 
