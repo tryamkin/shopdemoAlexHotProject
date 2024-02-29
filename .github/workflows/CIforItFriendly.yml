@@ -41,10 +41,10 @@ jobs:
           target/surefire-reports/emailable-report.html
 
   Good-Job:
-    runs-on: ubuntu-latest
+    runs-on: Bad-Luck
     needs: Run-on-Chrome
     steps:
-      - run: echo "FAIL !!!! "
+      - run: echo "WOW !!!!!!  "
 
   Bad-Luck:
     runs-on: ubuntu-latest

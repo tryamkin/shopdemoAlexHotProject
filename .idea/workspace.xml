@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="final test - two screenshots added">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="some fun">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,27 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00056" summary="try1">
-      <created>1709142176805</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1709142176805</updated>
-    </task>
-    <task id="LOCAL-00057" summary="refactoring">
-      <created>1709142359369</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1709142359369</updated>
-    </task>
-    <task id="LOCAL-00058" summary="change xpath |&quot;|">
-      <created>1709142632938</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1709142632939</updated>
     </task>
     <task id="LOCAL-00059" summary="xmmm...">
       <created>1709143152863</created>
@@ -568,7 +546,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709204490589</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="some fun">
+      <created>1709205768476</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1709205768476</updated>
+    </task>
+    <task id="LOCAL-00106" summary="some fun">
+      <created>1709205819684</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1709205819684</updated>
+    </task>
+    <task id="LOCAL-00107" summary="some fun">
+      <created>1709205910454</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1709205910454</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run KaterynaSpecialOfferBannerTest on Chrome &#10;oops forgot remote &quot;!&quot; )))" />
     <MESSAGE value="add firefox browser into yaml" />
     <MESSAGE value="try1 = running onto chrome and firefox" />
     <MESSAGE value="try1 = running onto chrome and firefox add notations" />
@@ -620,7 +618,8 @@
     <MESSAGE value="experiment4" />
     <MESSAGE value="experiment5" />
     <MESSAGE value="final test - two screenshots added" />
-    <option name="LAST_COMMIT_MESSAGE" value="final test - two screenshots added" />
+    <MESSAGE value="some fun" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fun" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
