@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="experiment5">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="final test - two screenshots added">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -66,6 +66,10 @@
         <option name="url" value="https://github.com/tryamkin/shopdemo-alex-hot.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/ITestResult.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/annotations/AfterClass.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -220,20 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00054" summary="add ForHelenCheckSubscribeTest class and rest assured dependency">
-      <created>1708876052689</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1708876052690</updated>
-    </task>
-    <task id="LOCAL-00055" summary="add   public MainPageBody() {&#10;            PageFactory.initElements(driver, this);&#10;        }">
-      <created>1709141310890</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1709141310891</updated>
     </task>
     <task id="LOCAL-00056" summary="try1">
       <created>1709142176805</created>
@@ -564,7 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709203246697</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="final test - two screenshots added">
+      <created>1709204388884</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1709204388884</updated>
+    </task>
+    <task id="LOCAL-00104" summary="final test - two screenshots added">
+      <created>1709204490589</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1709204490589</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run KaterynaSpecialOfferBannerTest on Chrome" />
     <MESSAGE value="run KaterynaSpecialOfferBannerTest on Chrome &#10;oops forgot remote &quot;!&quot; )))" />
     <MESSAGE value="add firefox browser into yaml" />
     <MESSAGE value="try1 = running onto chrome and firefox" />
@@ -616,7 +619,8 @@
     <MESSAGE value="experiment3" />
     <MESSAGE value="experiment4" />
     <MESSAGE value="experiment5" />
-    <option name="LAST_COMMIT_MESSAGE" value="experiment5" />
+    <MESSAGE value="final test - two screenshots added" />
+    <option name="LAST_COMMIT_MESSAGE" value="final test - two screenshots added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
