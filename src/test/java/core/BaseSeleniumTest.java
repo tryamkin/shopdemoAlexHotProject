@@ -31,8 +31,9 @@ abstract public class BaseSeleniumTest {
 
         if (OS_NAME_FOR_GIT.equals("Linux") ) {
             properties = new Properties();
+            properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
             String options = properties.getProperty(ENV_BROWSER_NAME);
-            System.out.println(options + "OPTION");
+            System.out.println(options + "  ENV_BROWSER_NAME OPTION");
               startBrowser(ENV_CRHOME());
         } else {
             WebDriverManager.chromedriver().setup();
