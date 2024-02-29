@@ -29,6 +29,7 @@ abstract public class BaseSeleniumTest {
     public void setUp() {
 
         if (OS_NAME_FOR_GIT.equals("Linux") &&ENV_CRHOME == true) {
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(new ChromeOptions().addArguments(
                     "--headless", "--window-size=1920,1080"));
             System.out.println("RUN ON CHROME");
@@ -36,7 +37,8 @@ abstract public class BaseSeleniumTest {
             System.out.println("Browser Name - " + capabilities.getBrowserName());
             System.out.println("Browser version - " + capabilities.getBrowserVersion());
         }
-        if (OS_NAME_FOR_GIT.equals("Linux") && ENV_CRHOME == false){
+       else if (OS_NAME_FOR_GIT.equals("Linux") && ENV_CRHOME == false){
+                WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
