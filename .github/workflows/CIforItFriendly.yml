@@ -42,13 +42,13 @@ jobs:
 
   Good-Job:
     runs-on: ubuntu-latest
-    needs: Run-on-Chromen
+    needs: Run-on-Chrome
     steps:
       - run: echo "FAIL !!!! "
 
   Bad-Luck:
     runs-on: ubuntu-latest
-    needs: GRun-on-Chrome
+    needs: Run-on-Chrome
     if: failure()
     steps:
         - run: echo "FAIL !!!! "
