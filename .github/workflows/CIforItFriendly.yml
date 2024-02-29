@@ -69,11 +69,3 @@ jobs:
         env:
           ENV_BROWSER_NAME: "FIREFOX"
 
-#      - name: Attach screenshots and reports FireFox
-#        uses: actions/upload-artifact@v4
-#        if: failure()
-#        with:
-#          name: screenshots-and-report-FireFox
-#          path: |
-#            screenshots
-#            target/surefire-reports/emailable-report.html
