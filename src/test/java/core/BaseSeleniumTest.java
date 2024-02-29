@@ -34,7 +34,7 @@ abstract public class BaseSeleniumTest {
             properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
             String options = properties.getProperty(ENV_BROWSER_NAME);
             System.out.println(options + "  ENV_BROWSER_NAME OPTION");
-              startBrowser(ENV_CRHOME());
+              startBrowser(ENV_BROWSER_NAME);
         } else {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -51,8 +51,8 @@ abstract public class BaseSeleniumTest {
         return System.getenv("ENV_CHROME") != null;
     }
 
-    public void startBrowser(Boolean Browser){
-        if (Browser){
+    public void startBrowser(String Browser){
+        if (Browser.equals("CHROME")){
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(new ChromeOptions().addArguments(
                     "--headless", "--window-size=1920,1080"));

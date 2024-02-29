@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="try9 add string option" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="try10 add string option" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00041" summary="remote choose browsers">
-      <created>1708686011905</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1708686011905</updated>
     </task>
     <task id="LOCAL-00042" summary="remote choose browsers">
       <created>1708686276347</created>
@@ -561,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709195196906</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="try10 add string option">
+      <created>1709195506919</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1709195506919</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change xpath" />
     <MESSAGE value="change element" />
     <MESSAGE value="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later." />
     <MESSAGE value="clickOnBannersArrowtestTest()" />
@@ -613,7 +612,8 @@
     <MESSAGE value="try8 sorry fo master )))" />
     <MESSAGE value="try9 sorry fo master )))" />
     <MESSAGE value="try9 add string option" />
-    <option name="LAST_COMMIT_MESSAGE" value="try9 add string option" />
+    <MESSAGE value="try10 add string option" />
+    <option name="LAST_COMMIT_MESSAGE" value="try10 add string option" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
