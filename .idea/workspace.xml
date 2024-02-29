@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="some fun end">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +107,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest">
+  <component name="RunManager" selected="TestNG.HelenMainPageTest">
     <configuration name="ForHelenCheckSubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -145,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelenMainPageTest.subscribeMultipleTimesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HelenMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +153,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
-      <option name="METHOD_NAME" value="subscribeMultipleTimesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -199,19 +196,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.HelenMainPageTest" />
       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
       <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
       <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
-      <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HelenMainPageTest" />
         <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
         <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
         <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
         <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
-        <item itemvalue="TestNG.HelenMainPageTest.subscribeMultipleTimesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,34 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00063" summary="change xpath">
-      <created>1709144484300</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1709144484300</updated>
-    </task>
-    <task id="LOCAL-00064" summary="change element">
-      <created>1709144633131</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1709144633131</updated>
-    </task>
-    <task id="LOCAL-00065" summary="change element">
-      <created>1709144862894</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1709144862894</updated>
-    </task>
-    <task id="LOCAL-00066" summary="change element">
-      <created>1709144913070</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1709144913070</updated>
     </task>
     <task id="LOCAL-00067" summary="change element">
       <created>1709145324762</created>
@@ -567,7 +536,35 @@
       <option name="project" value="LOCAL" />
       <updated>1709206822797</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="some fun end">
+      <created>1709207510452</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1709207510452</updated>
+    </task>
+    <task id="LOCAL-00113" summary="some fun end">
+      <created>1709207563193</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1709207563193</updated>
+    </task>
+    <task id="LOCAL-00114" summary="some fun end">
+      <created>1709207669202</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1709207669202</updated>
+    </task>
+    <task id="LOCAL-00115" summary="end">
+      <created>1709207768259</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1709207768259</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="try1 = running onto chrome and firefox" />
     <MESSAGE value="try1 = running onto chrome and firefox add notations" />
     <MESSAGE value="try2 = running onto chrome and firefox add notations" />
     <MESSAGE value="try3 = running onto chrome and firefox change" />
@@ -619,7 +615,8 @@
     <MESSAGE value="final test - two screenshots added" />
     <MESSAGE value="some fun" />
     <MESSAGE value="some fun end" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fun end" />
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
