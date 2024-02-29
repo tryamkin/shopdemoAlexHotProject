@@ -1,16 +1,24 @@
 package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
+import java.io.File;
+import java.io.IOException;
+import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.Properties;
 
@@ -51,9 +59,7 @@ abstract public class BaseSeleniumTest {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
         BaseSeleniumPage.setDriver(driver);
-
     }
-
 
     /**
      * тут логика и дравера для разных браузеров - хрому хромье, лисе - лисье )))
@@ -81,6 +87,7 @@ abstract public class BaseSeleniumTest {
 
     @AfterClass
     public void tearDown() {
+
         if (ENV_BROWSER_NAME.equals("CHROME")) {
             driver.close();
             driver.quit();
@@ -88,4 +95,23 @@ abstract public class BaseSeleniumTest {
             driver.close();
         }
     }
+
+
+    @AfterMethod
+    protected void afterMethod(Method method, ITestResult testResult) {
+        if (!testResult.isSuccess()) takeScreenshot(driver, method.getName(), this.getClass().getName());
+
+    }
+
+    static File takeScreenshot (WebDriver driver, String methodName, String className) {
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file, new File(String.format("screenshots/%s.%s.png", className, methodName)));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return file;
+    }
 }
+
+
