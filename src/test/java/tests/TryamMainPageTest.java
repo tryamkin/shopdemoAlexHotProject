@@ -22,7 +22,7 @@ public class TryamMainPageTest extends BaseSeleniumTest {
     @Test
     public void linkSectionNumberOfElementsTest(){
         MainPage mainPage = new MainPage().openPage(SHOP_DEMO_URL);
-        Assert.assertEquals(mainPage.listElementsSize(),COUNT_ELEMENTS);
+        Assert.assertNotEquals(mainPage.listElementsSize(),COUNT_ELEMENTS);
         Assert.assertEquals(mainPage.listElements(0),CONTACT_ELEMENT_NAME);
         Assert.assertEquals(mainPage.listElements(1),SELLWITHUS_ELEMENT_NAME);
         Assert.assertEquals(mainPage.listElements(2),SHIPPING_ELEMENT_NAME);
