@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="experiment3" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="experiment5">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,20 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00052" summary="remove from className Footer">
-      <created>1708803645491</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803645492</updated>
-    </task>
-    <task id="LOCAL-00053" summary="ignore subscribeWithInvalidEmailTest()">
-      <created>1708803859700</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803859701</updated>
     </task>
     <task id="LOCAL-00054" summary="add ForHelenCheckSubscribeTest class and rest assured dependency">
       <created>1708876052689</created>
@@ -561,7 +550,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709202642819</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="experiment4">
+      <created>1709202855488</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1709202855488</updated>
+    </task>
+    <task id="LOCAL-00102" summary="experiment5">
+      <created>1709203246697</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1709203246697</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,8 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run on firefox correct )))" />
-    <MESSAGE value="run on Chrome" />
     <MESSAGE value="run KaterynaSpecialOfferBannerTest on Chrome" />
     <MESSAGE value="run KaterynaSpecialOfferBannerTest on Chrome &#10;oops forgot remote &quot;!&quot; )))" />
     <MESSAGE value="add firefox browser into yaml" />
@@ -613,7 +614,9 @@
     <MESSAGE value="experiment1" />
     <MESSAGE value="experiment2" />
     <MESSAGE value="experiment3" />
-    <option name="LAST_COMMIT_MESSAGE" value="experiment3" />
+    <MESSAGE value="experiment4" />
+    <MESSAGE value="experiment5" />
+    <option name="LAST_COMMIT_MESSAGE" value="experiment5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
