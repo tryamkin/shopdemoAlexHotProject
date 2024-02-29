@@ -28,26 +28,8 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp() {
 
-        if (OS_NAME_FOR_GIT.equals("Linux") && ENV_CRHOME()) {
-
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(new ChromeOptions().addArguments(
-                    "--headless", "--window-size=1920,1080"));
-            System.out.println("RUN ON CHROME");
-            Capabilities capabilities = ((ChromeDriver) driver).getCapabilities();
-            System.out.println("Browser Name - " + capabilities.getBrowserName());
-            System.out.println("Browser version - " + capabilities.getBrowserVersion());
-        }
-       else if (OS_NAME_FOR_GIT.equals("Linux") && !ENV_CRHOME()){
-                WebDriverManager.firefoxdriver().setup();
-                FirefoxOptions options = new FirefoxOptions();
-                options.addArguments("--headless");
-                driver = new FirefoxDriver(options);
-                System.out.println("RUN ON FIREFOX");
-                Capabilities capabilities = ((FirefoxDriver) driver).getCapabilities();
-                System.out.println("Browser Name - " + capabilities.getBrowserName());
-                System.out.println("Browser version - " + capabilities.getBrowserVersion());
-
+        if (OS_NAME_FOR_GIT.equals("Linux") ) {
+              startBrowser(ENV_CRHOME());
         } else {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -61,9 +43,31 @@ abstract public class BaseSeleniumTest {
     }
 
     static boolean ENV_CRHOME() {
-        System.out.println("Run on CHROME " + System.getenv("ENV_CHROME"));
         return System.getenv("ENV_CHROME") != null;
     }
+
+    public void startBrowser(Boolean Browser){
+        if (Browser){
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver(new ChromeOptions().addArguments(
+                    "--headless", "--window-size=1920,1080"));
+            System.out.println("RUN ON CHROME");
+            Capabilities capabilities = ((ChromeDriver) driver).getCapabilities();
+            System.out.println("Browser Name - " + capabilities.getBrowserName());
+            System.out.println("Browser version - " + capabilities.getBrowserVersion());
+        }
+        else {
+            WebDriverManager.firefoxdriver().setup();
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--headless");
+            driver = new FirefoxDriver(options);
+            System.out.println("RUN ON FIREFOX");
+            Capabilities capabilities = ((FirefoxDriver) driver).getCapabilities();
+            System.out.println("Browser Name - " + capabilities.getBrowserName());
+            System.out.println("Browser version - " + capabilities.getBrowserVersion());
+        }
+    }
+
 
     @AfterClass
     public void tearDown() {
