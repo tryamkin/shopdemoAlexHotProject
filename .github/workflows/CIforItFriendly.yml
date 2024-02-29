@@ -29,7 +29,6 @@ jobs:
     - name: Maven test
       run: mvn test
       env:
-        ENV_CHROME: true
         ENV_BROWSER_NAME: "CHROME"
 
     - name: Attach screenshots and reports
@@ -55,7 +54,6 @@ jobs:
       - name: Maven test
         run: mvn test
         env:
-          ENV_CHROME: false
           ENV_BROWSER_NAME: "FIREFOX"
 
       - name: Attach screenshots and reports

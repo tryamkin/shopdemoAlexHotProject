@@ -25,16 +25,16 @@ abstract public class BaseSeleniumTest {
     public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
     private static final String ENV_BROWSER_NAME = "ENV_BROWSER_NAME";
     protected WebDriver driver;
-    private static Properties properties;
+
     @BeforeClass
     public void setUp() {
 
-        if (OS_NAME_FOR_GIT.equals("Linux") ) {
-            properties = new Properties();
+        if (OS_NAME_FOR_GIT.equals("Linux")) {
+            Properties properties = new Properties();
             properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
             String options = properties.getProperty(ENV_BROWSER_NAME);
             System.out.println(options + "  ENV_BROWSER_NAME OPTION");
-              startBrowser(options);
+            startBrowser(options);
         } else {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -47,22 +47,15 @@ abstract public class BaseSeleniumTest {
 
     }
 
-    static boolean ENV_CRHOME() {
-        return System.getenv("ENV_CHROME") != null;
-    }
-
-    public void startBrowser(String Browser){
-        if (Browser.equals("CHROME")){
-           // WebDriverManager.chromedriver().setup();
+    public void startBrowser(String Browser) {
+        if (Browser.equals("CHROME")) {
             driver = new ChromeDriver(new ChromeOptions().addArguments(
                     "--headless", "--window-size=1920,1080"));
             System.out.println("RUN ON CHROME");
             Capabilities capabilities = ((ChromeDriver) driver).getCapabilities();
             System.out.println("Browser Name - " + capabilities.getBrowserName());
             System.out.println("Browser version - " + capabilities.getBrowserVersion());
-        }
-        else {
-           // WebDriverManager.firefoxdriver().setup();
+        } else {
             FirefoxOptions options = new FirefoxOptions();
             options.addArguments("--headless");
             driver = new FirefoxDriver(options);
@@ -76,10 +69,10 @@ abstract public class BaseSeleniumTest {
 
     @AfterClass
     public void tearDown() {
-        if (ENV_BROWSER_NAME.equals("CHROME")){
-        driver.close();
-        driver.quit();}
-        else {
+        if (ENV_BROWSER_NAME.equals("CHROME")) {
+            driver.close();
+            driver.quit();
+        } else {
             driver.close();
         }
     }

@@ -11,7 +11,7 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
     @Test
     public void clickOnBannersArrowtestTest() {
 
-        System.out.println("clickOnBannersArrowtestTest() run" );
+        System.out.println("clickOnBannersArrowtestTest() run =============== [ Катин тест ] =================" );
         MainPageBody offerBanner = new MainPageBody();
         offerBanner.openPage();
         offerBanner.clickOnArrow();
