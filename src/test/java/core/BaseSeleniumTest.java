@@ -23,7 +23,7 @@ abstract public class BaseSeleniumTest {
 
     @BeforeClass
     public void setUp() {
-        if (!OS_NAME_FOR_GIT.equals("Linux")){
+        if (OS_NAME_FOR_GIT.equals("Linux")){
               driver = new ChromeDriver(new ChromeOptions().addArguments(
               "--headless","--window-size=1920,1080"));
         } else {
