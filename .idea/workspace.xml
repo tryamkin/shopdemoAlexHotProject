@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="some fun">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="some fun end">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,27 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00059" summary="xmmm...">
-      <created>1709143152863</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1709143152863</updated>
-    </task>
-    <task id="LOCAL-00060" summary="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]">
-      <created>1709143754730</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1709143754730</updated>
-    </task>
-    <task id="LOCAL-00061" summary="change xpath //button[@aria-label='Go to next slide']">
-      <created>1709144026841</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1709144026841</updated>
     </task>
     <task id="LOCAL-00062" summary="change xpath to css">
       <created>1709144313063</created>
@@ -567,7 +546,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709205910454</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="some fun">
+      <created>1709206070042</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1709206070042</updated>
+    </task>
+    <task id="LOCAL-00109" summary="some fun">
+      <created>1709206295731</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1709206295731</updated>
+    </task>
+    <task id="LOCAL-00110" summary="some fun end">
+      <created>1709206363117</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1709206363117</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add firefox browser into yaml" />
     <MESSAGE value="try1 = running onto chrome and firefox" />
     <MESSAGE value="try1 = running onto chrome and firefox add notations" />
     <MESSAGE value="try2 = running onto chrome and firefox add notations" />
@@ -619,7 +618,8 @@
     <MESSAGE value="experiment5" />
     <MESSAGE value="final test - two screenshots added" />
     <MESSAGE value="some fun" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fun" />
+    <MESSAGE value="some fun end" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fun end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

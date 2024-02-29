@@ -43,6 +43,7 @@ jobs:
   Good-Job:
     runs-on: ubuntu-latest
     needs: Bad-Luck
+    if: skipped()
     steps:
       - run: echo "WOW !!!!!!  "
 
