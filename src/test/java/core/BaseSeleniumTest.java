@@ -21,13 +21,15 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
 abstract public class BaseSeleniumTest {
     public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
-    private static final Boolean ENV_CHROME = true;
+   // private static Boolean ENV_CHROME = true;
     protected WebDriver driver;
 
     @BeforeClass
     public void setUp() {
+
+
         if (OS_NAME_FOR_GIT.equals("Linux")) {
-            if (ENV_CHROME) {
+            if (ENV_CRHOME()) {
                 driver = new ChromeDriver(new ChromeOptions().addArguments(
                         "--headless", "--window-size=1920,1080"));
             } else {
@@ -47,10 +49,14 @@ abstract public class BaseSeleniumTest {
 
     }
 
+    static boolean ENV_CRHOME() {
+        System.out.println("Run on CHROME " + System.getenv("ENV_CHROME"));
+        return System.getenv("ENV_CHROME") != null;
+    }
 
     @AfterClass
     public void tearDown() {
-        if (ENV_CHROME){
+        if (ENV_CRHOME()){
         driver.close();
         driver.quit();}
         else {
