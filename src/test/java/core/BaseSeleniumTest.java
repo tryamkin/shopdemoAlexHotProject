@@ -12,6 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.time.Duration;
+import java.util.Properties;
 
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.IMPLISITY_WAIT;
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
@@ -22,13 +23,16 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
 abstract public class BaseSeleniumTest {
     public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
-    public static boolean ENV_CRHOME = ENV_CRHOME();
+    private static final String ENV_BROWSER_NAME = "ENV_BROWSER_NAME";
     protected WebDriver driver;
-
+    private static Properties properties;
     @BeforeClass
     public void setUp() {
 
         if (OS_NAME_FOR_GIT.equals("Linux") ) {
+            properties = new Properties();
+            String options = properties.getProperty(ENV_BROWSER_NAME);
+            System.out.println(options + "OPTION");
               startBrowser(ENV_CRHOME());
         } else {
             WebDriverManager.chromedriver().setup();

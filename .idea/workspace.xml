@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="try7 sorry fo master )))">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="try9 sorry fo master )))">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
     </list>
@@ -220,20 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update config">
-      <created>1708616984756</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1708616984756</updated>
-    </task>
-    <task id="LOCAL-00039" summary="remote choose browsers">
-      <created>1708684723862</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1708684723862</updated>
     </task>
     <task id="LOCAL-00040" summary="remote choose browsers">
       <created>1708684880764</created>
@@ -564,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709193694909</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="try8 sorry fo master )))">
+      <created>1709194102388</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1709194102388</updated>
+    </task>
+    <task id="LOCAL-00090" summary="try9 sorry fo master )))">
+      <created>1709194373252</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1709194373252</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,8 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change xpath //*[@id=&quot;root&quot;]/div/main/div/div/div/div/div[1]/div/div/button[2]" />
-    <MESSAGE value="change xpath //button[@aria-label='Go to next slide']" />
     <MESSAGE value="change xpath to css" />
     <MESSAGE value="change xpath" />
     <MESSAGE value="change element" />
@@ -616,7 +615,9 @@
     <MESSAGE value="try5 = running onto chrome and firefox change" />
     <MESSAGE value="try6 sorry fo master )))" />
     <MESSAGE value="try7 sorry fo master )))" />
-    <option name="LAST_COMMIT_MESSAGE" value="try7 sorry fo master )))" />
+    <MESSAGE value="try8 sorry fo master )))" />
+    <MESSAGE value="try9 sorry fo master )))" />
+    <option name="LAST_COMMIT_MESSAGE" value="try9 sorry fo master )))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
