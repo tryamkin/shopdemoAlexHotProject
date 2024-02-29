@@ -22,12 +22,13 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
 abstract public class BaseSeleniumTest {
     public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
+    public static boolean ENV_CRHOME = ENV_CRHOME();
     protected WebDriver driver;
 
     @BeforeClass
     public void setUp() {
 
-        if (OS_NAME_FOR_GIT.equals("Linux")&&ENV_CRHOME() == true) {
+        if (OS_NAME_FOR_GIT.equals("Linux")&&ENV_CRHOME == true) {
             driver = new ChromeDriver(new ChromeOptions().addArguments(
                     "--headless", "--window-size=1920,1080"));
             System.out.println("RUN ON CHROME");
@@ -35,7 +36,7 @@ abstract public class BaseSeleniumTest {
             System.out.println("Browser Name - " + capabilities.getBrowserName());
             System.out.println("Browser version - " + capabilities.getBrowserVersion());
         }
-        else if (OS_NAME_FOR_GIT.equals("Linux") && ENV_CRHOME() == false){
+        else if (OS_NAME_FOR_GIT.equals("Linux") && ENV_CRHOME == false){
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
