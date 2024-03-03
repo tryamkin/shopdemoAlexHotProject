@@ -16,7 +16,7 @@ public class MainPageBody extends BaseSeleniumPage {
     @FindBy(xpath = "/html/body/div/div/main/div/div/div/div/div[1]/div/div/button[2]")
     private WebElement blueSuperSaleBanner;
 
-    @FindBy(xpath = "//li[@class='react-multi-carousel-item react-multi-carousel-item--active carousel-slider-item']")
+    @FindBy(xpath = "//body/div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/img[1]")
     private WebElement blueSuperSaleBannerApears;
 
     public void openPage() {

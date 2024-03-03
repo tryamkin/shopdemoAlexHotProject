@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="end">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="blue banner appeared">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,13 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00067" summary="change element">
-      <created>1709145324762</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1709145324762</updated>
     </task>
     <task id="LOCAL-00068" summary="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later.">
       <created>1709145902521</created>
@@ -568,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709207768259</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="blue banner appeared">
+      <created>1709492744135</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1709492744135</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="try1 = running onto chrome and firefox add notations" />
     <MESSAGE value="try2 = running onto chrome and firefox add notations" />
     <MESSAGE value="try3 = running onto chrome and firefox change" />
     <MESSAGE value="try4 = running onto chrome and firefox change" />
@@ -620,7 +617,8 @@
     <MESSAGE value="some fun" />
     <MESSAGE value="some fun end" />
     <MESSAGE value="end" />
-    <option name="LAST_COMMIT_MESSAGE" value="end" />
+    <MESSAGE value="blue banner appeared" />
+    <option name="LAST_COMMIT_MESSAGE" value="blue banner appeared" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
