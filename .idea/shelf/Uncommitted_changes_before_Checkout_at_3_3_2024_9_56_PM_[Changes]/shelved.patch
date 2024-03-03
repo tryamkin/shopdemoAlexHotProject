@@ -1,0 +1,805 @@
+Index: src/test/java/tests/KaterynaSpecialOfferBannerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests;\n\nimport core.BaseSeleniumTest;\nimport org.itfriendly.projectPages.MainPageBody;\nimport org.testng.Assert;\nimport org.testng.annotations.Test;\n\npublic class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {\n\n\n    @Test\n    public void clickOnBannersArrowtestTest() {\n\n        System.out.println(\"clickOnBannersArrowtestTest() run =============== [ Катин тест ] =================\" );\n        MainPageBody offerBanner = new MainPageBody();\n        offerBanner.openPage();\n        offerBanner.clickOnArrow();\n        System.out.println(\"Last check  offerBanner.isNextBannerArrowClickable() -  \" + offerBanner.isNextBannerArrowClickable());\n        Assert.assertTrue(offerBanner.isNextBannerArrowClickable());\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/KaterynaSpecialOfferBannerTest.java b/src/test/java/tests/KaterynaSpecialOfferBannerTest.java
+--- a/src/test/java/tests/KaterynaSpecialOfferBannerTest.java	(revision feade65044d2c16583cb4be0abee851c9c8e230d)
++++ b/src/test/java/tests/KaterynaSpecialOfferBannerTest.java	(date 1709492169319)
+@@ -18,5 +18,4 @@
+         System.out.println("Last check  offerBanner.isNextBannerArrowClickable() -  " + offerBanner.isNextBannerArrowClickable());
+         Assert.assertTrue(offerBanner.isNextBannerArrowClickable());
+     }
+-
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ff30bdf2-1b0e-413c-a9e6-0d52a0d70501\" name=\"Changes\" comment=\"end\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeInsightWorkspaceSettings\">\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"RESET_MODE\" value=\"SOFT\" />\n  </component>\n  <component name=\"GitToolBoxStore\">\n    <option name=\"projectConfigVersion\" value=\"5\" />\n    <option name=\"recentBranches\">\n      <RecentBranches>\n        <option name=\"branchesForRepo\">\n          <list>\n            <RecentBranchesForRepo>\n              <option name=\"branches\">\n                <list>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"rebase\" />\n                    <option name=\"lastUsedInstant\" value=\"1708684146\" />\n                  </RecentBranch>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"master\" />\n                    <option name=\"lastUsedInstant\" value=\"1708528765\" />\n                  </RecentBranch>\n                </list>\n              </option>\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\n            </RecentBranchesForRepo>\n          </list>\n        </option>\n      </RecentBranches>\n    </option>\n  </component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"e7632bc1-0b04-4b3d-8ffe-326d2f781dd3\" />\n        <option name=\"url\" value=\"https://github.com/tryamkin/shopdemo-alex-hot.git\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/ITestResult.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/annotations/AfterClass.java\" root0=\"SKIP_INSPECTION\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2cM4HOghSbnuUI047iVLPgoyyIp\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/Aqua/booking&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\!Teach\\shopdemo-alex-hot\" />\n      <recent name=\"C:\\!Teach\\shopdemo-alex-hot\\src\\test\\tests\" />\n      <recent name=\"C:\\!Teach\\shopdemo-alex-hot\\src\\test\\java\\tests\\exaples\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\!Teach\\shopdemo-alex-hot\\src\\test\\java\" />\n      <recent name=\"C:\\!Teach\\shopdemo-alex-hot\\src\\test\" />\n      <recent name=\"C:\\!Teach\\shopdemo-alex-hot\\src\\test\\tests\\exampples\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"core\" />\n      <recent name=\"base\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"TestNG.HelenMainPageTest\">\n    <configuration name=\"ForHelenCheckSubscribeTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"shopdemo-alex-hot\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.ForHelenCheckSubscribeTest\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ForHelenCheckSubscribeTest.checksubscribeTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"shopdemo-alex-hot\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.ForHelenCheckSubscribeTest\" />\n      <option name=\"METHOD_NAME\" value=\"checksubscribeTest\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"HelenMainPageTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"shopdemo-alex-hot\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.HelenMainPageTest\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"KaterynaSpecialOfferBannerTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"shopdemo-alex-hot\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.KaterynaSpecialOfferBannerTest\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"shopdemo-alex-hot\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.KaterynaSpecialOfferBannerTest\" />\n      <option name=\"METHOD_NAME\" value=\"clickOnBannersArrowtest\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"TestNG.HelenMainPageTest\" />\n      <item itemvalue=\"TestNG.KaterynaSpecialOfferBannerTest\" />\n      <item itemvalue=\"TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest\" />\n      <item itemvalue=\"TestNG.ForHelenCheckSubscribeTest\" />\n      <item itemvalue=\"TestNG.ForHelenCheckSubscribeTest.checksubscribeTest\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"TestNG.HelenMainPageTest\" />\n        <item itemvalue=\"TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest\" />\n        <item itemvalue=\"TestNG.KaterynaSpecialOfferBannerTest\" />\n        <item itemvalue=\"TestNG.ForHelenCheckSubscribeTest\" />\n        <item itemvalue=\"TestNG.ForHelenCheckSubscribeTest.checksubscribeTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ff30bdf2-1b0e-413c-a9e6-0d52a0d70501\" name=\"Changes\" comment=\"\" />\n      <created>1707908026498</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1707908026498</updated>\n    </task>\n    <task id=\"LOCAL-00067\" summary=\"change element\">\n      <created>1709145324762</created>\n      <option name=\"number\" value=\"00067\" />\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709145324762</updated>\n    </task>\n    <task id=\"LOCAL-00068\" summary=\"ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later.\">\n      <created>1709145902521</created>\n      <option name=\"number\" value=\"00068\" />\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709145902521</updated>\n    </task>\n    <task id=\"LOCAL-00069\" summary=\"clickOnBannersArrowtestTest()\">\n      <created>1709145972615</created>\n      <option name=\"number\" value=\"00069\" />\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709145972615</updated>\n    </task>\n    <task id=\"LOCAL-00070\" summary=\"clickOnBannersArrowtestTest() ignoring\">\n      <created>1709146628910</created>\n      <option name=\"number\" value=\"00070\" />\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709146628910</updated>\n    </task>\n    <task id=\"LOCAL-00071\" summary=\"idea!\">\n      <created>1709148014606</created>\n      <option name=\"number\" value=\"00071\" />\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709148014607</updated>\n    </task>\n    <task id=\"LOCAL-00072\" summary=\"idea 2\">\n      <created>1709148210934</created>\n      <option name=\"number\" value=\"00072\" />\n      <option name=\"presentableId\" value=\"LOCAL-00072\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709148210934</updated>\n    </task>\n    <task id=\"LOCAL-00073\" summary=\"idea 3\">\n      <created>1709148554748</created>\n      <option name=\"number\" value=\"00073\" />\n      <option name=\"presentableId\" value=\"LOCAL-00073\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709148554748</updated>\n    </task>\n    <task id=\"LOCAL-00074\" summary=\"run on firefox\">\n      <created>1709188660253</created>\n      <option name=\"number\" value=\"00074\" />\n      <option name=\"presentableId\" value=\"LOCAL-00074\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709188660254</updated>\n    </task>\n    <task id=\"LOCAL-00075\" summary=\"run on firefox\">\n      <created>1709188819954</created>\n      <option name=\"number\" value=\"00075\" />\n      <option name=\"presentableId\" value=\"LOCAL-00075\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709188819955</updated>\n    </task>\n    <task id=\"LOCAL-00076\" summary=\"run on firefox correct )))\">\n      <created>1709188906013</created>\n      <option name=\"number\" value=\"00076\" />\n      <option name=\"presentableId\" value=\"LOCAL-00076\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709188906013</updated>\n    </task>\n    <task id=\"LOCAL-00077\" summary=\"run on Chrome\">\n      <created>1709189256520</created>\n      <option name=\"number\" value=\"00077\" />\n      <option name=\"presentableId\" value=\"LOCAL-00077\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709189256520</updated>\n    </task>\n    <task id=\"LOCAL-00078\" summary=\"run KaterynaSpecialOfferBannerTest on Chrome\">\n      <created>1709189547284</created>\n      <option name=\"number\" value=\"00078\" />\n      <option name=\"presentableId\" value=\"LOCAL-00078\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709189547284</updated>\n    </task>\n    <task id=\"LOCAL-00079\" summary=\"run KaterynaSpecialOfferBannerTest on Chrome &#10;oops forgot remote &quot;!&quot; )))\">\n      <created>1709189636744</created>\n      <option name=\"number\" value=\"00079\" />\n      <option name=\"presentableId\" value=\"LOCAL-00079\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709189636744</updated>\n    </task>\n    <task id=\"LOCAL-00080\" summary=\"add firefox browser into yaml\">\n      <created>1709190888838</created>\n      <option name=\"number\" value=\"00080\" />\n      <option name=\"presentableId\" value=\"LOCAL-00080\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709190888838</updated>\n    </task>\n    <task id=\"LOCAL-00081\" summary=\"try1 = running onto chrome and firefox\">\n      <created>1709191578032</created>\n      <option name=\"number\" value=\"00081\" />\n      <option name=\"presentableId\" value=\"LOCAL-00081\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709191578032</updated>\n    </task>\n    <task id=\"LOCAL-00082\" summary=\"try1 = running onto chrome and firefox add notations\">\n      <created>1709192201819</created>\n      <option name=\"number\" value=\"00082\" />\n      <option name=\"presentableId\" value=\"LOCAL-00082\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709192201819</updated>\n    </task>\n    <task id=\"LOCAL-00083\" summary=\"try2 = running onto chrome and firefox add notations\">\n      <created>1709192546265</created>\n      <option name=\"number\" value=\"00083\" />\n      <option name=\"presentableId\" value=\"LOCAL-00083\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709192546265</updated>\n    </task>\n    <task id=\"LOCAL-00084\" summary=\"try3 = running onto chrome and firefox change\">\n      <created>1709192747589</created>\n      <option name=\"number\" value=\"00084\" />\n      <option name=\"presentableId\" value=\"LOCAL-00084\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709192747589</updated>\n    </task>\n    <task id=\"LOCAL-00085\" summary=\"try4 = running onto chrome and firefox change\">\n      <created>1709192971693</created>\n      <option name=\"number\" value=\"00085\" />\n      <option name=\"presentableId\" value=\"LOCAL-00085\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709192971693</updated>\n    </task>\n    <task id=\"LOCAL-00086\" summary=\"try5 = running onto chrome and firefox change\">\n      <created>1709193259275</created>\n      <option name=\"number\" value=\"00086\" />\n      <option name=\"presentableId\" value=\"LOCAL-00086\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709193259275</updated>\n    </task>\n    <task id=\"LOCAL-00087\" summary=\"try6 sorry fo master )))\">\n      <created>1709193429482</created>\n      <option name=\"number\" value=\"00087\" />\n      <option name=\"presentableId\" value=\"LOCAL-00087\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709193429482</updated>\n    </task>\n    <task id=\"LOCAL-00088\" summary=\"try7 sorry fo master )))\">\n      <created>1709193694909</created>\n      <option name=\"number\" value=\"00088\" />\n      <option name=\"presentableId\" value=\"LOCAL-00088\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709193694909</updated>\n    </task>\n    <task id=\"LOCAL-00089\" summary=\"try8 sorry fo master )))\">\n      <created>1709194102388</created>\n      <option name=\"number\" value=\"00089\" />\n      <option name=\"presentableId\" value=\"LOCAL-00089\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709194102388</updated>\n    </task>\n    <task id=\"LOCAL-00090\" summary=\"try9 sorry fo master )))\">\n      <created>1709194373252</created>\n      <option name=\"number\" value=\"00090\" />\n      <option name=\"presentableId\" value=\"LOCAL-00090\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709194373252</updated>\n    </task>\n    <task id=\"LOCAL-00091\" summary=\"try9 add string option\">\n      <created>1709195196906</created>\n      <option name=\"number\" value=\"00091\" />\n      <option name=\"presentableId\" value=\"LOCAL-00091\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709195196906</updated>\n    </task>\n    <task id=\"LOCAL-00092\" summary=\"try10 add string option\">\n      <created>1709195506919</created>\n      <option name=\"number\" value=\"00092\" />\n      <option name=\"presentableId\" value=\"LOCAL-00092\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709195506919</updated>\n    </task>\n    <task id=\"LOCAL-00093\" summary=\"try11 hope it last check\">\n      <created>1709196088483</created>\n      <option name=\"number\" value=\"00093\" />\n      <option name=\"presentableId\" value=\"LOCAL-00093\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709196088483</updated>\n    </task>\n    <task id=\"LOCAL-00094\" summary=\"try12\">\n      <created>1709196332440</created>\n      <option name=\"number\" value=\"00094\" />\n      <option name=\"presentableId\" value=\"LOCAL-00094\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709196332440</updated>\n    </task>\n    <task id=\"LOCAL-00095\" summary=\"Final check\">\n      <created>1709196892984</created>\n      <option name=\"number\" value=\"00095\" />\n      <option name=\"presentableId\" value=\"LOCAL-00095\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709196892984</updated>\n    </task>\n    <task id=\"LOCAL-00096\" summary=\"ready to use + add comments\">\n      <created>1709197559210</created>\n      <option name=\"number\" value=\"00096\" />\n      <option name=\"presentableId\" value=\"LOCAL-00096\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709197559210</updated>\n    </task>\n    <task id=\"LOCAL-00097\" summary=\"add screenshot after fail test\">\n      <created>1709201321016</created>\n      <option name=\"number\" value=\"00097\" />\n      <option name=\"presentableId\" value=\"LOCAL-00097\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709201321016</updated>\n    </task>\n    <task id=\"LOCAL-00098\" summary=\"experiment1\">\n      <created>1709202056391</created>\n      <option name=\"number\" value=\"00098\" />\n      <option name=\"presentableId\" value=\"LOCAL-00098\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709202056392</updated>\n    </task>\n    <task id=\"LOCAL-00099\" summary=\"experiment2\">\n      <created>1709202226193</created>\n      <option name=\"number\" value=\"00099\" />\n      <option name=\"presentableId\" value=\"LOCAL-00099\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709202226193</updated>\n    </task>\n    <task id=\"LOCAL-00100\" summary=\"experiment3\">\n      <created>1709202642819</created>\n      <option name=\"number\" value=\"00100\" />\n      <option name=\"presentableId\" value=\"LOCAL-00100\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709202642819</updated>\n    </task>\n    <task id=\"LOCAL-00101\" summary=\"experiment4\">\n      <created>1709202855488</created>\n      <option name=\"number\" value=\"00101\" />\n      <option name=\"presentableId\" value=\"LOCAL-00101\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709202855488</updated>\n    </task>\n    <task id=\"LOCAL-00102\" summary=\"experiment5\">\n      <created>1709203246697</created>\n      <option name=\"number\" value=\"00102\" />\n      <option name=\"presentableId\" value=\"LOCAL-00102\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709203246697</updated>\n    </task>\n    <task id=\"LOCAL-00103\" summary=\"final test - two screenshots added\">\n      <created>1709204388884</created>\n      <option name=\"number\" value=\"00103\" />\n      <option name=\"presentableId\" value=\"LOCAL-00103\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709204388884</updated>\n    </task>\n    <task id=\"LOCAL-00104\" summary=\"final test - two screenshots added\">\n      <created>1709204490589</created>\n      <option name=\"number\" value=\"00104\" />\n      <option name=\"presentableId\" value=\"LOCAL-00104\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709204490589</updated>\n    </task>\n    <task id=\"LOCAL-00105\" summary=\"some fun\">\n      <created>1709205768476</created>\n      <option name=\"number\" value=\"00105\" />\n      <option name=\"presentableId\" value=\"LOCAL-00105\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709205768476</updated>\n    </task>\n    <task id=\"LOCAL-00106\" summary=\"some fun\">\n      <created>1709205819684</created>\n      <option name=\"number\" value=\"00106\" />\n      <option name=\"presentableId\" value=\"LOCAL-00106\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709205819684</updated>\n    </task>\n    <task id=\"LOCAL-00107\" summary=\"some fun\">\n      <created>1709205910454</created>\n      <option name=\"number\" value=\"00107\" />\n      <option name=\"presentableId\" value=\"LOCAL-00107\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709205910454</updated>\n    </task>\n    <task id=\"LOCAL-00108\" summary=\"some fun\">\n      <created>1709206070042</created>\n      <option name=\"number\" value=\"00108\" />\n      <option name=\"presentableId\" value=\"LOCAL-00108\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709206070042</updated>\n    </task>\n    <task id=\"LOCAL-00109\" summary=\"some fun\">\n      <created>1709206295731</created>\n      <option name=\"number\" value=\"00109\" />\n      <option name=\"presentableId\" value=\"LOCAL-00109\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709206295731</updated>\n    </task>\n    <task id=\"LOCAL-00110\" summary=\"some fun end\">\n      <created>1709206363117</created>\n      <option name=\"number\" value=\"00110\" />\n      <option name=\"presentableId\" value=\"LOCAL-00110\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709206363117</updated>\n    </task>\n    <task id=\"LOCAL-00111\" summary=\"some fun end\">\n      <created>1709206822797</created>\n      <option name=\"number\" value=\"00111\" />\n      <option name=\"presentableId\" value=\"LOCAL-00111\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709206822797</updated>\n    </task>\n    <task id=\"LOCAL-00112\" summary=\"some fun end\">\n      <created>1709207510452</created>\n      <option name=\"number\" value=\"00112\" />\n      <option name=\"presentableId\" value=\"LOCAL-00112\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709207510452</updated>\n    </task>\n    <task id=\"LOCAL-00113\" summary=\"some fun end\">\n      <created>1709207563193</created>\n      <option name=\"number\" value=\"00113\" />\n      <option name=\"presentableId\" value=\"LOCAL-00113\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709207563193</updated>\n    </task>\n    <task id=\"LOCAL-00114\" summary=\"some fun end\">\n      <created>1709207669202</created>\n      <option name=\"number\" value=\"00114\" />\n      <option name=\"presentableId\" value=\"LOCAL-00114\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709207669202</updated>\n    </task>\n    <task id=\"LOCAL-00115\" summary=\"end\">\n      <created>1709207768259</created>\n      <option name=\"number\" value=\"00115\" />\n      <option name=\"presentableId\" value=\"LOCAL-00115\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709207768259</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"116\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"project/master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"try1 = running onto chrome and firefox add notations\" />\n    <MESSAGE value=\"try2 = running onto chrome and firefox add notations\" />\n    <MESSAGE value=\"try3 = running onto chrome and firefox change\" />\n    <MESSAGE value=\"try4 = running onto chrome and firefox change\" />\n    <MESSAGE value=\"try5 = running onto chrome and firefox change\" />\n    <MESSAGE value=\"try6 sorry fo master )))\" />\n    <MESSAGE value=\"try7 sorry fo master )))\" />\n    <MESSAGE value=\"try8 sorry fo master )))\" />\n    <MESSAGE value=\"try9 sorry fo master )))\" />\n    <MESSAGE value=\"try9 add string option\" />\n    <MESSAGE value=\"try10 add string option\" />\n    <MESSAGE value=\"try11 hope it last check\" />\n    <MESSAGE value=\"try12\" />\n    <MESSAGE value=\"Final check\" />\n    <MESSAGE value=\"ready to use + add comments\" />\n    <MESSAGE value=\"add screenshot after fail test\" />\n    <MESSAGE value=\"experiment1\" />\n    <MESSAGE value=\"experiment2\" />\n    <MESSAGE value=\"experiment3\" />\n    <MESSAGE value=\"experiment4\" />\n    <MESSAGE value=\"experiment5\" />\n    <MESSAGE value=\"final test - two screenshots added\" />\n    <MESSAGE value=\"some fun\" />\n    <MESSAGE value=\"some fun end\" />\n    <MESSAGE value=\"end\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"end\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/test/java/exampples/GooglePageTest.java</url>\n          <line>58</line>\n          <option name=\"timeStamp\" value=\"2\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n    <watches-manager>\n      <configuration name=\"TestNG\">\n        <watch expression=\"driver\" language=\"JAVA\" />\n      </configuration>\n    </watches-manager>\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision feade65044d2c16583cb4be0abee851c9c8e230d)
++++ b/.idea/workspace.xml	(date 1709491808897)
+@@ -4,14 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="end" />
++    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="arrow click on the banner">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="CodeInsightWorkspaceSettings">
+-    <option name="optimizeImportsOnTheFly" value="true" />
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -39,10 +39,6 @@
+             <RecentBranchesForRepo>
+               <option name="branches">
+                 <list>
+-                  <RecentBranch>
+-                    <option name="branchName" value="rebase" />
+-                    <option name="lastUsedInstant" value="1708684146" />
+-                  </RecentBranch>
+                   <RecentBranch>
+                     <option name="branchName" value="master" />
+                     <option name="lastUsedInstant" value="1708528765" />
+@@ -64,10 +60,6 @@
+       </UrlAndAccount>
+     </option>
+   </component>
+-  <component name="HighlightingSettingsPerFile">
+-    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/ITestResult.java" root0="SKIP_INSPECTION" />
+-    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.8.0/testng-7.8.0-sources.jar!/org/testng/annotations/AfterClass.java" root0="SKIP_INSPECTION" />
+-  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -84,11 +76,11 @@
+     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/Aqua/booking&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/shopdemo-alex-hot&quot;,
+     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+@@ -107,8 +99,8 @@
+       <recent name="base" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="TestNG.HelenMainPageTest">
+-    <configuration name="ForHelenCheckSubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest">
++    <configuration name="HelenMainPageTest.subscriptionInputFieldNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="shopdemo-alex-hot" />
+       <extension name="coverage">
+         <pattern>
+@@ -117,15 +109,16 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
++      <option name="METHOD_NAME" value="subscriptionInputFieldNameTest" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ForHelenCheckSubscribeTest.checksubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="KaterynaSpecialOfferBannerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="shopdemo-alex-hot" />
+       <extension name="coverage">
+         <pattern>
+@@ -134,16 +127,15 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
+-      <option name="METHOD_NAME" value="checksubscribeTest" />
+-      <option name="TEST_OBJECT" value="METHOD" />
++      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
++      <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="HelenMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="shopdemo-alex-hot" />
+       <extension name="coverage">
+         <pattern>
+@@ -152,15 +144,16 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.HelenMainPageTest" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
++      <option name="METHOD_NAME" value="clickOnBannersArrowtest" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="KaterynaSpecialOfferBannerTest" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TryamMainPageTest.contackUsLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="shopdemo-alex-hot" />
+       <extension name="coverage">
+         <pattern>
+@@ -169,15 +162,16 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
++      <option name="METHOD_NAME" value="contackUsLinkTest" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TryamMainPageTest.linkSectionNumberOfElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="shopdemo-alex-hot" />
+       <extension name="coverage">
+         <pattern>
+@@ -186,8 +180,8 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
+-      <option name="METHOD_NAME" value="clickOnBannersArrowtest" />
++      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
++      <option name="METHOD_NAME" value="linkSectionNumberOfElementsTest" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -196,19 +190,19 @@
+       </method>
+     </configuration>
+     <list>
+-      <item itemvalue="TestNG.HelenMainPageTest" />
+       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
+       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
+-      <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
+-      <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
++      <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
++      <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
++      <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.HelenMainPageTest" />
+-        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
+         <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
+-        <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
+-        <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
++        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
++        <item itemvalue="TestNG.TryamMainPageTest.contackUsLinkTest" />
++        <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
++        <item itemvalue="TestNG.HelenMainPageTest.subscriptionInputFieldNameTest" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -221,350 +215,252 @@
+       <option name="presentableId" value="Default" />
+       <updated>1707908026498</updated>
+     </task>
+-    <task id="LOCAL-00067" summary="change element">
+-      <created>1709145324762</created>
+-      <option name="number" value="00067" />
+-      <option name="presentableId" value="LOCAL-00067" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709145324762</updated>
+-    </task>
+-    <task id="LOCAL-00068" summary="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later.">
+-      <created>1709145902521</created>
+-      <option name="number" value="00068" />
+-      <option name="presentableId" value="LOCAL-00068" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709145902521</updated>
+-    </task>
+-    <task id="LOCAL-00069" summary="clickOnBannersArrowtestTest()">
+-      <created>1709145972615</created>
+-      <option name="number" value="00069" />
+-      <option name="presentableId" value="LOCAL-00069" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709145972615</updated>
+-    </task>
+-    <task id="LOCAL-00070" summary="clickOnBannersArrowtestTest() ignoring">
+-      <created>1709146628910</created>
+-      <option name="number" value="00070" />
+-      <option name="presentableId" value="LOCAL-00070" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709146628910</updated>
+-    </task>
+-    <task id="LOCAL-00071" summary="idea!">
+-      <created>1709148014606</created>
+-      <option name="number" value="00071" />
+-      <option name="presentableId" value="LOCAL-00071" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709148014607</updated>
+-    </task>
+-    <task id="LOCAL-00072" summary="idea 2">
+-      <created>1709148210934</created>
+-      <option name="number" value="00072" />
+-      <option name="presentableId" value="LOCAL-00072" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709148210934</updated>
+-    </task>
+-    <task id="LOCAL-00073" summary="idea 3">
+-      <created>1709148554748</created>
+-      <option name="number" value="00073" />
+-      <option name="presentableId" value="LOCAL-00073" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709148554748</updated>
+-    </task>
+-    <task id="LOCAL-00074" summary="run on firefox">
+-      <created>1709188660253</created>
+-      <option name="number" value="00074" />
+-      <option name="presentableId" value="LOCAL-00074" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709188660254</updated>
+-    </task>
+-    <task id="LOCAL-00075" summary="run on firefox">
+-      <created>1709188819954</created>
+-      <option name="number" value="00075" />
+-      <option name="presentableId" value="LOCAL-00075" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709188819955</updated>
+-    </task>
+-    <task id="LOCAL-00076" summary="run on firefox correct )))">
+-      <created>1709188906013</created>
+-      <option name="number" value="00076" />
+-      <option name="presentableId" value="LOCAL-00076" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709188906013</updated>
+-    </task>
+-    <task id="LOCAL-00077" summary="run on Chrome">
+-      <created>1709189256520</created>
+-      <option name="number" value="00077" />
+-      <option name="presentableId" value="LOCAL-00077" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709189256520</updated>
+-    </task>
+-    <task id="LOCAL-00078" summary="run KaterynaSpecialOfferBannerTest on Chrome">
+-      <created>1709189547284</created>
+-      <option name="number" value="00078" />
+-      <option name="presentableId" value="LOCAL-00078" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709189547284</updated>
+-    </task>
+-    <task id="LOCAL-00079" summary="run KaterynaSpecialOfferBannerTest on Chrome &#10;oops forgot remote &quot;!&quot; )))">
+-      <created>1709189636744</created>
+-      <option name="number" value="00079" />
+-      <option name="presentableId" value="LOCAL-00079" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709189636744</updated>
+-    </task>
+-    <task id="LOCAL-00080" summary="add firefox browser into yaml">
+-      <created>1709190888838</created>
+-      <option name="number" value="00080" />
+-      <option name="presentableId" value="LOCAL-00080" />
++    <task id="LOCAL-00001" summary="Almost done project">
++      <created>1707929579780</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709190888838</updated>
++      <updated>1707929579780</updated>
+     </task>
+-    <task id="LOCAL-00081" summary="try1 = running onto chrome and firefox">
+-      <created>1709191578032</created>
+-      <option name="number" value="00081" />
+-      <option name="presentableId" value="LOCAL-00081" />
++    <task id="LOCAL-00002" summary="verify githubAction">
++      <created>1707929865734</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709191578032</updated>
++      <updated>1707929865734</updated>
+     </task>
+-    <task id="LOCAL-00082" summary="try1 = running onto chrome and firefox add notations">
+-      <created>1709192201819</created>
+-      <option name="number" value="00082" />
+-      <option name="presentableId" value="LOCAL-00082" />
++    <task id="LOCAL-00003" summary="verify pom">
++      <created>1707930021404</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709192201819</updated>
++      <updated>1707930021404</updated>
+     </task>
+-    <task id="LOCAL-00083" summary="try2 = running onto chrome and firefox add notations">
+-      <created>1709192546265</created>
+-      <option name="number" value="00083" />
+-      <option name="presentableId" value="LOCAL-00083" />
++    <task id="LOCAL-00004" summary="verify pom">
++      <created>1707930302553</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709192546265</updated>
++      <updated>1707930302553</updated>
+     </task>
+-    <task id="LOCAL-00084" summary="try3 = running onto chrome and firefox change">
+-      <created>1709192747589</created>
+-      <option name="number" value="00084" />
+-      <option name="presentableId" value="LOCAL-00084" />
++    <task id="LOCAL-00005" summary="verify pom">
++      <created>1707931377310</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709192747589</updated>
++      <updated>1707931377310</updated>
+     </task>
+-    <task id="LOCAL-00085" summary="try4 = running onto chrome and firefox change">
+-      <created>1709192971693</created>
+-      <option name="number" value="00085" />
+-      <option name="presentableId" value="LOCAL-00085" />
++    <task id="LOCAL-00006" summary="verify pom try1">
++      <created>1707932313572</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709192971693</updated>
++      <updated>1707932313572</updated>
+     </task>
+-    <task id="LOCAL-00086" summary="try5 = running onto chrome and firefox change">
+-      <created>1709193259275</created>
+-      <option name="number" value="00086" />
+-      <option name="presentableId" value="LOCAL-00086" />
++    <task id="LOCAL-00007" summary="verify pom try1">
++      <created>1707933143615</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709193259275</updated>
++      <updated>1707933143615</updated>
+     </task>
+-    <task id="LOCAL-00087" summary="try6 sorry fo master )))">
+-      <created>1709193429482</created>
+-      <option name="number" value="00087" />
+-      <option name="presentableId" value="LOCAL-00087" />
++    <task id="LOCAL-00008" summary="new workflow">
++      <created>1707933390284</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709193429482</updated>
++      <updated>1707933390284</updated>
+     </task>
+-    <task id="LOCAL-00088" summary="try7 sorry fo master )))">
+-      <created>1709193694909</created>
+-      <option name="number" value="00088" />
+-      <option name="presentableId" value="LOCAL-00088" />
++    <task id="LOCAL-00009" summary="new workflow">
++      <created>1707933508401</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709193694909</updated>
++      <updated>1707933508401</updated>
+     </task>
+-    <task id="LOCAL-00089" summary="try8 sorry fo master )))">
+-      <created>1709194102388</created>
+-      <option name="number" value="00089" />
+-      <option name="presentableId" value="LOCAL-00089" />
++    <task id="LOCAL-00010" summary="lets test!">
++      <created>1707934722316</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709194102388</updated>
++      <updated>1707934722316</updated>
+     </task>
+-    <task id="LOCAL-00090" summary="try9 sorry fo master )))">
+-      <created>1709194373252</created>
+-      <option name="number" value="00090" />
+-      <option name="presentableId" value="LOCAL-00090" />
++    <task id="LOCAL-00011" summary="lets test!">
++      <created>1707935751735</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709194373252</updated>
++      <updated>1707935751735</updated>
+     </task>
+-    <task id="LOCAL-00091" summary="try9 add string option">
+-      <created>1709195196906</created>
+-      <option name="number" value="00091" />
+-      <option name="presentableId" value="LOCAL-00091" />
++    <task id="LOCAL-00012" summary="lets test!">
++      <created>1707935886741</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709195196906</updated>
++      <updated>1707935886741</updated>
+     </task>
+-    <task id="LOCAL-00092" summary="try10 add string option">
+-      <created>1709195506919</created>
+-      <option name="number" value="00092" />
+-      <option name="presentableId" value="LOCAL-00092" />
++    <task id="LOCAL-00013" summary="test failed">
++      <created>1707936244126</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709195506919</updated>
++      <updated>1707936244126</updated>
+     </task>
+-    <task id="LOCAL-00093" summary="try11 hope it last check">
+-      <created>1709196088483</created>
+-      <option name="number" value="00093" />
+-      <option name="presentableId" value="LOCAL-00093" />
++    <task id="LOCAL-00014" summary="test passed">
++      <created>1707936473590</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709196088483</updated>
++      <updated>1707936473590</updated>
+     </task>
+-    <task id="LOCAL-00094" summary="try12">
+-      <created>1709196332440</created>
+-      <option name="number" value="00094" />
+-      <option name="presentableId" value="LOCAL-00094" />
++    <task id="LOCAL-00015" summary="test fail + screenshot">
++      <created>1707936538439</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709196332440</updated>
++      <updated>1707936538439</updated>
+     </task>
+-    <task id="LOCAL-00095" summary="Final check">
+-      <created>1709196892984</created>
+-      <option name="number" value="00095" />
+-      <option name="presentableId" value="LOCAL-00095" />
++    <task id="LOCAL-00016" summary="test fail + screenshot">
++      <created>1707936973305</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709196892984</updated>
++      <updated>1707936973305</updated>
+     </task>
+-    <task id="LOCAL-00096" summary="ready to use + add comments">
+-      <created>1709197559210</created>
+-      <option name="number" value="00096" />
+-      <option name="presentableId" value="LOCAL-00096" />
++    <task id="LOCAL-00017" summary="test Firefox + screenshot">
++      <created>1707937924731</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709197559210</updated>
++      <updated>1707937924731</updated>
+     </task>
+-    <task id="LOCAL-00097" summary="add screenshot after fail test">
+-      <created>1709201321016</created>
+-      <option name="number" value="00097" />
+-      <option name="presentableId" value="LOCAL-00097" />
++    <task id="LOCAL-00018" summary="test Firefox + screenshot">
++      <created>1707937976786</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709201321016</updated>
++      <updated>1707937976786</updated>
+     </task>
+-    <task id="LOCAL-00098" summary="experiment1">
+-      <created>1709202056391</created>
+-      <option name="number" value="00098" />
+-      <option name="presentableId" value="LOCAL-00098" />
++    <task id="LOCAL-00019" summary="test Firefox + screenshot">
++      <created>1707938091201</created>
++      <option name="number" value="00019" />
++      <option name="presentableId" value="LOCAL-00019" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709202056392</updated>
++      <updated>1707938091201</updated>
+     </task>
+-    <task id="LOCAL-00099" summary="experiment2">
+-      <created>1709202226193</created>
+-      <option name="number" value="00099" />
+-      <option name="presentableId" value="LOCAL-00099" />
++    <task id="LOCAL-00020" summary="test Chrome + screenshot">
++      <created>1707938209343</created>
++      <option name="number" value="00020" />
++      <option name="presentableId" value="LOCAL-00020" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709202226193</updated>
++      <updated>1707938209343</updated>
+     </task>
+-    <task id="LOCAL-00100" summary="experiment3">
+-      <created>1709202642819</created>
+-      <option name="number" value="00100" />
+-      <option name="presentableId" value="LOCAL-00100" />
++    <task id="LOCAL-00021" summary="maven otyavilsya">
++      <created>1707938365375</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709202642819</updated>
++      <updated>1707938365375</updated>
+     </task>
+-    <task id="LOCAL-00101" summary="experiment4">
+-      <created>1709202855488</created>
+-      <option name="number" value="00101" />
+-      <option name="presentableId" value="LOCAL-00101" />
++    <task id="LOCAL-00022" summary="maven + firefox">
++      <created>1707938833894</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709202855488</updated>
++      <updated>1707938833894</updated>
+     </task>
+-    <task id="LOCAL-00102" summary="experiment5">
+-      <created>1709203246697</created>
+-      <option name="number" value="00102" />
+-      <option name="presentableId" value="LOCAL-00102" />
++    <task id="LOCAL-00023" summary="norm + Firefox">
++      <created>1707938982634</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709203246697</updated>
++      <updated>1707938982634</updated>
+     </task>
+-    <task id="LOCAL-00103" summary="final test - two screenshots added">
+-      <created>1709204388884</created>
+-      <option name="number" value="00103" />
+-      <option name="presentableId" value="LOCAL-00103" />
++    <task id="LOCAL-00024" summary="create new branch">
++      <created>1707991904171</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709204388884</updated>
++      <updated>1707991904171</updated>
+     </task>
+-    <task id="LOCAL-00104" summary="final test - two screenshots added">
+-      <created>1709204490589</created>
+-      <option name="number" value="00104" />
+-      <option name="presentableId" value="LOCAL-00104" />
++    <task id="LOCAL-00025" summary="oru">
++      <created>1708018642951</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709204490589</updated>
++      <updated>1708018642951</updated>
+     </task>
+-    <task id="LOCAL-00105" summary="some fun">
+-      <created>1709205768476</created>
+-      <option name="number" value="00105" />
+-      <option name="presentableId" value="LOCAL-00105" />
++    <task id="LOCAL-00026" summary="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass">
++      <created>1708335450537</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709205768476</updated>
++      <updated>1708335450537</updated>
+     </task>
+-    <task id="LOCAL-00106" summary="some fun">
+-      <created>1709205819684</created>
+-      <option name="number" value="00106" />
+-      <option name="presentableId" value="LOCAL-00106" />
++    <task id="LOCAL-00027" summary="remote hard code">
++      <created>1708336925448</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709205819684</updated>
++      <updated>1708336925448</updated>
+     </task>
+-    <task id="LOCAL-00107" summary="some fun">
+-      <created>1709205910454</created>
+-      <option name="number" value="00107" />
+-      <option name="presentableId" value="LOCAL-00107" />
++    <task id="LOCAL-00028" summary="add badge to README.md )">
++      <created>1708519806665</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709205910454</updated>
++      <updated>1708519806665</updated>
+     </task>
+-    <task id="LOCAL-00108" summary="some fun">
+-      <created>1709206070042</created>
+-      <option name="number" value="00108" />
+-      <option name="presentableId" value="LOCAL-00108" />
++    <task id="LOCAL-00029" summary="add badge to README.md and name">
++      <created>1708520050032</created>
++      <option name="number" value="00029" />
++      <option name="presentableId" value="LOCAL-00029" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709206070042</updated>
++      <updated>1708520050032</updated>
+     </task>
+-    <task id="LOCAL-00109" summary="some fun">
+-      <created>1709206295731</created>
+-      <option name="number" value="00109" />
+-      <option name="presentableId" value="LOCAL-00109" />
++    <task id="LOCAL-00030" summary="test">
++      <created>1708520535625</created>
++      <option name="number" value="00030" />
++      <option name="presentableId" value="LOCAL-00030" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709206295731</updated>
++      <updated>1708520535625</updated>
+     </task>
+-    <task id="LOCAL-00110" summary="some fun end">
+-      <created>1709206363117</created>
+-      <option name="number" value="00110" />
+-      <option name="presentableId" value="LOCAL-00110" />
++    <task id="LOCAL-00031" summary="test">
++      <created>1708520892216</created>
++      <option name="number" value="00031" />
++      <option name="presentableId" value="LOCAL-00031" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709206363117</updated>
++      <updated>1708520892216</updated>
+     </task>
+-    <task id="LOCAL-00111" summary="some fun end">
+-      <created>1709206822797</created>
+-      <option name="number" value="00111" />
+-      <option name="presentableId" value="LOCAL-00111" />
++    <task id="LOCAL-00032" summary="verify">
++      <created>1708521098179</created>
++      <option name="number" value="00032" />
++      <option name="presentableId" value="LOCAL-00032" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709206822797</updated>
++      <updated>1708521098180</updated>
+     </task>
+-    <task id="LOCAL-00112" summary="some fun end">
+-      <created>1709207510452</created>
+-      <option name="number" value="00112" />
+-      <option name="presentableId" value="LOCAL-00112" />
++    <task id="LOCAL-00033" summary="update actions">
++      <created>1708521714249</created>
++      <option name="number" value="00033" />
++      <option name="presentableId" value="LOCAL-00033" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709207510452</updated>
++      <updated>1708521714249</updated>
+     </task>
+-    <task id="LOCAL-00113" summary="some fun end">
+-      <created>1709207563193</created>
+-      <option name="number" value="00113" />
+-      <option name="presentableId" value="LOCAL-00113" />
++    <task id="LOCAL-00034" summary="arrow click on the banner">
++      <created>1709115026053</created>
++      <option name="number" value="00034" />
++      <option name="presentableId" value="LOCAL-00034" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709207563193</updated>
++      <updated>1709115026053</updated>
+     </task>
+-    <task id="LOCAL-00114" summary="some fun end">
+-      <created>1709207669202</created>
+-      <option name="number" value="00114" />
+-      <option name="presentableId" value="LOCAL-00114" />
++    <task id="LOCAL-00035" summary="arrow click on the banner">
++      <created>1709115363069</created>
++      <option name="number" value="00035" />
++      <option name="presentableId" value="LOCAL-00035" />
+       <option name="project" value="LOCAL" />
+-      <updated>1709207669202</updated>
++      <updated>1709115363069</updated>
+     </task>
+-    <task id="LOCAL-00115" summary="end">
+-      <created>1709207768259</created>
+-      <option name="number" value="00115" />
+-      <option name="presentableId" value="LOCAL-00115" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1709207768259</updated>
+-    </task>
+-    <option name="localTasksCounter" value="116" />
++    <option name="localTasksCounter" value="36" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -591,32 +487,31 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="try1 = running onto chrome and firefox add notations" />
+-    <MESSAGE value="try2 = running onto chrome and firefox add notations" />
+-    <MESSAGE value="try3 = running onto chrome and firefox change" />
+-    <MESSAGE value="try4 = running onto chrome and firefox change" />
+-    <MESSAGE value="try5 = running onto chrome and firefox change" />
+-    <MESSAGE value="try6 sorry fo master )))" />
+-    <MESSAGE value="try7 sorry fo master )))" />
+-    <MESSAGE value="try8 sorry fo master )))" />
+-    <MESSAGE value="try9 sorry fo master )))" />
+-    <MESSAGE value="try9 add string option" />
+-    <MESSAGE value="try10 add string option" />
+-    <MESSAGE value="try11 hope it last check" />
+-    <MESSAGE value="try12" />
+-    <MESSAGE value="Final check" />
+-    <MESSAGE value="ready to use + add comments" />
+-    <MESSAGE value="add screenshot after fail test" />
+-    <MESSAGE value="experiment1" />
+-    <MESSAGE value="experiment2" />
+-    <MESSAGE value="experiment3" />
+-    <MESSAGE value="experiment4" />
+-    <MESSAGE value="experiment5" />
+-    <MESSAGE value="final test - two screenshots added" />
+-    <MESSAGE value="some fun" />
+-    <MESSAGE value="some fun end" />
+-    <MESSAGE value="end" />
+-    <option name="LAST_COMMIT_MESSAGE" value="end" />
++    <MESSAGE value="Almost done project" />
++    <MESSAGE value="verify githubAction" />
++    <MESSAGE value="verify pom" />
++    <MESSAGE value="verify pom try1" />
++    <MESSAGE value="new workflow" />
++    <MESSAGE value="lets test!" />
++    <MESSAGE value="test failed" />
++    <MESSAGE value="test passed" />
++    <MESSAGE value="test fail + screenshot" />
++    <MESSAGE value="test Firefox + screenshot" />
++    <MESSAGE value="test Chrome + screenshot" />
++    <MESSAGE value="maven otyavilsya" />
++    <MESSAGE value="maven + firefox" />
++    <MESSAGE value="norm + Firefox" />
++    <MESSAGE value="create new branch" />
++    <MESSAGE value="oru" />
++    <MESSAGE value="TC_MainPage_20,21,22. added tests and some refactoring in MainPageClass" />
++    <MESSAGE value="remote hard code" />
++    <MESSAGE value="add badge to README.md )" />
++    <MESSAGE value="add badge to README.md and name" />
++    <MESSAGE value="test" />
++    <MESSAGE value="verify" />
++    <MESSAGE value="update actions" />
++    <MESSAGE value="arrow click on the banner" />
++    <option name="LAST_COMMIT_MESSAGE" value="arrow click on the banner" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -634,8 +529,4 @@
+       </configuration>
+     </watches-manager>
+   </component>
+-  <component name="XSLT-Support.FileAssociations.UIState">
+-    <expand />
+-    <select />
+-  </component>
+ </project>
+\ No newline at end of file

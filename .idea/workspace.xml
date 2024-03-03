@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="end" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="end">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="kat_promobody" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,7 +111,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HelenMainPageTest">
+  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest">
     <configuration name="ForHelenCheckSubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -119,24 +123,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForHelenCheckSubscribeTest.checksubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ForHelenCheckSubscribeTest" />
-      <option name="METHOD_NAME" value="checksubscribeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -177,6 +163,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
+      <option name="METHOD_NAME" value="checkIsClickRedirectstest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -196,19 +200,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest" />
       <item itemvalue="TestNG.HelenMainPageTest" />
       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
       <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
       <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
-      <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest" />
+        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
         <item itemvalue="TestNG.HelenMainPageTest" />
         <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
-        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
         <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
-        <item itemvalue="TestNG.ForHelenCheckSubscribeTest.checksubscribeTest" />
       </list>
     </recent_temporary>
   </component>

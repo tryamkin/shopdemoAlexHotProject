@@ -16,6 +16,9 @@ public class MainPageBody extends BaseSeleniumPage {
     @FindBy(xpath = "/html/body/div/div/main/div/div/div/div/div[1]/div/div/button[2]")
     private WebElement blueSuperSaleBanner;
 
+    @FindBy(xpath = "//li[@class='react-multi-carousel-item react-multi-carousel-item--active carousel-slider-item']")
+    private WebElement blueSuperSaleBannerApears;
+
     public void openPage() {
         driver.get(SHOP_DEMO_URL);
     }
@@ -35,5 +38,8 @@ public class MainPageBody extends BaseSeleniumPage {
         blueSuperSaleBanner.click();
         System.out.println("Click on blueSuperSaleBanner" );
 
+    }
+    public WebElement nextBannerAppeared() {
+        return blueSuperSaleBannerApears;
     }
 }

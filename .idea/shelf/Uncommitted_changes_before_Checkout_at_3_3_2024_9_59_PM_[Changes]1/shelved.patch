@@ -1,0 +1,20 @@
+Index: src/main/java/org/itfriendly/projectPages/MainPageBody.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.itfriendly.projectPages;\n\nimport org.itfriendly.core.BaseSeleniumPage;\nimport org.openqa.selenium.WebElement;\nimport org.openqa.selenium.support.FindBy;\nimport org.openqa.selenium.support.PageFactory;\n\nimport static org.itfriendly.constants.Constatnt.Urls.SHOP_DEMO_URL;\n\npublic class MainPageBody extends BaseSeleniumPage {\n\n    public MainPageBody() {\n        PageFactory.initElements(driver, this);\n    }\n\n    @FindBy(xpath = \"/html/body/div/div/main/div/div/div/div/div[1]/div/div/button[2]\")\n    private WebElement blueSuperSaleBanner;\n\n    public void openPage() {\n        driver.get(SHOP_DEMO_URL);\n    }\n\n    public boolean isNextBannerArrowClickable() {\n        waitForElementVisibility(blueSuperSaleBanner);\n        return isClickableArrow(blueSuperSaleBanner);\n    }\n\n    private boolean isClickableArrow(WebElement element) {\n        System.out.println(\"isEnabled() blueSuperSaleBanner - \" + element.isEnabled() );\n        System.out.println(\"isDisplayed() blueSuperSaleBanner -  \" + element.isDisplayed());\n        return element.isEnabled() && element.isDisplayed();\n    }\n    public void clickOnArrow(){\n        waitForElementVisibility(blueSuperSaleBanner);\n        blueSuperSaleBanner.click();\n        System.out.println(\"Click on blueSuperSaleBanner\" );\n\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/itfriendly/projectPages/MainPageBody.java b/src/main/java/org/itfriendly/projectPages/MainPageBody.java
+--- a/src/main/java/org/itfriendly/projectPages/MainPageBody.java	
++++ b/src/main/java/org/itfriendly/projectPages/MainPageBody.java	
+@@ -36,4 +36,8 @@
+         System.out.println("Click on blueSuperSaleBanner" );
+ 
+     }
++
++    public WebElement nextBannerAppeared() {
++        return blueSuperSaleBannerApears;
++    }
+ }
+\ No newline at end of file
