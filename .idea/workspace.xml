@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="blue banner appeared">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPageBody.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="blue banner appeared" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,13 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
-    </task>
-    <task id="LOCAL-00068" summary="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later.">
-      <created>1709145902521</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1709145902521</updated>
     </task>
     <task id="LOCAL-00069" summary="clickOnBannersArrowtestTest()">
       <created>1709145972615</created>
@@ -566,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709492744135</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="blue banner appeared">
+      <created>1709493267272</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1709493267272</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
