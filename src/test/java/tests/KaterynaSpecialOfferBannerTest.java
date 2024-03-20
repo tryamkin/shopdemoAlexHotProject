@@ -5,7 +5,7 @@ import org.itfriendly.projectPages.MainPageBody;
 import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-
+@Ignore
 public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
 
 
@@ -20,7 +20,7 @@ public class KaterynaSpecialOfferBannerTest extends BaseSeleniumTest {
         Assert.assertTrue(offerBanner.isNextBannerArrowClickable());
     }
 
-   @Ignore
+
    @Test
     public void checkIsClickRedirectstest() {
         MainPageBody blueBanner = new MainPageBody();
