@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="blue banner appeared" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="end">
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/BasePlayWrightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/playWright/PlayWrightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/playWright/SearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_28_2024_2_10_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_28_2024_2_10_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_3_2024_9_56_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_3_2024_9_56_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_3_2024_9_59_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_3_2024_9_59_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_28_2024_9_57_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_28_2024_9_57_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_3_2024_9_50_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_3_2024_9_50_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HelenMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HelenMainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/KaterynaSpecialOfferBannerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +33,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/src/main/resources/.editorconfig" previewFile="$PROJECT_DIR$/src/main/resources/allure.properties" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,11 +48,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="kat_promobody" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -40,12 +65,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="rebase" />
-                    <option name="lastUsedInstant" value="1708684146" />
+                    <option name="branchName" value="playWrite" />
+                    <option name="lastUsedInstant" value="1710769932" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1708528765" />
+                    <option name="lastUsedInstant" value="1710769920" />
                   </RecentBranch>
                 </list>
               </option>
@@ -79,25 +104,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/Aqua/booking&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/!Teach/shopdemo-alex-hot/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\!Teach\shopdemo-alex-hot\src\test\resources" />
       <recent name="C:\!Teach\shopdemo-alex-hot" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\tests" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\java\tests\exaples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\!Teach\shopdemo-alex-hot\target" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\java" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\tests\exampples" />
@@ -107,7 +134,57 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.SearchTests">
+    <configuration name="shopdemo-alex-hot [clean,validate,compile,test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map>
+                <entry key="allure.properties" value="" />
+              </map>
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="validate" />
+                <option value="compile" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="ForHelenCheckSubscribeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -142,16 +219,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KaterynaSpecialOfferBannerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.playWright.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
+      <option name="PACKAGE_NAME" value="tests.playWright" />
+      <option name="MAIN_CLASS_NAME" value="tests.playWright.SearchTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,7 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryamMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
@@ -168,27 +245,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
-      <option name="METHOD_NAME" value="checkIsClickRedirectstest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KaterynaSpecialOfferBannerTest" />
-      <option name="METHOD_NAME" value="clickOnBannersArrowtest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -196,19 +254,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest" />
+      <item itemvalue="Maven.shopdemo-alex-hot [clean,validate,compile,test]" />
+      <item itemvalue="TestNG.SearchTests" />
+      <item itemvalue="TestNG.TryamMainPageTest" />
       <item itemvalue="TestNG.HelenMainPageTest" />
-      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
-      <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
       <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.checkIsClickRedirectstest" />
-        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest" />
-        <item itemvalue="TestNG.HelenMainPageTest" />
-        <item itemvalue="TestNG.KaterynaSpecialOfferBannerTest.clickOnBannersArrowtest" />
+        <item itemvalue="TestNG.SearchTests" />
+        <item itemvalue="TestNG.TryamMainPageTest" />
         <item itemvalue="TestNG.ForHelenCheckSubscribeTest" />
+        <item itemvalue="Maven.shopdemo-alex-hot [clean,validate,compile,test]" />
+        <item itemvalue="TestNG.HelenMainPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +278,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707908026498</updated>
+    </task>
+    <task id="LOCAL-00067" summary="change element">
+      <created>1709145324762</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1709145324762</updated>
+    </task>
+    <task id="LOCAL-00068" summary="ignore clickOnBannersArrowtest() - slider element not found ob GitHub, we solve later.">
+      <created>1709145902521</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1709145902521</updated>
     </task>
     <task id="LOCAL-00069" summary="clickOnBannersArrowtestTest()">
       <created>1709145972615</created>
@@ -550,21 +622,7 @@
       <option name="project" value="LOCAL" />
       <updated>1709207768259</updated>
     </task>
-    <task id="LOCAL-00116" summary="blue banner appeared">
-      <created>1709492744135</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1709492744135</updated>
-    </task>
-    <task id="LOCAL-00117" summary="blue banner appeared">
-      <created>1709493267272</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1709493267272</updated>
-    </task>
-    <option name="localTasksCounter" value="118" />
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,7 +636,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="project/master" />
+                        <option value="playWrite" />
                       </list>
                     </value>
                   </entry>
@@ -591,6 +649,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="try1 = running onto chrome and firefox add notations" />
     <MESSAGE value="try2 = running onto chrome and firefox add notations" />
     <MESSAGE value="try3 = running onto chrome and firefox change" />
     <MESSAGE value="try4 = running onto chrome and firefox change" />
@@ -615,8 +674,7 @@
     <MESSAGE value="some fun" />
     <MESSAGE value="some fun end" />
     <MESSAGE value="end" />
-    <MESSAGE value="blue banner appeared" />
-    <option name="LAST_COMMIT_MESSAGE" value="blue banner appeared" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

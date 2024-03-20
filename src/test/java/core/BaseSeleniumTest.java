@@ -1,6 +1,7 @@
 package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.Capabilities;
@@ -18,9 +19,11 @@ import org.testng.annotations.BeforeClass;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Method;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.UUID;
 
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.IMPLISITY_WAIT;
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
@@ -33,6 +36,7 @@ abstract public class BaseSeleniumTest {
     public static final String OS_NAME_FOR_GIT = System.getProperty("os.name");
     private static final String ENV_BROWSER_NAME = "ENV_BROWSER_NAME";
     protected WebDriver driver;
+    private Boolean isTraceEnabled = true;
 
     @BeforeClass
     public void setUp() {
@@ -42,7 +46,7 @@ abstract public class BaseSeleniumTest {
          * */
         if (OS_NAME_FOR_GIT.equals("Linux")) {
             Properties properties = new Properties();
-            properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
+          properties.setProperty(ENV_BROWSER_NAME, System.getenv(ENV_BROWSER_NAME));
             /**Тут мы береём переменную - ENV_BROWSER_NAME: (например - "FIREFOX") из файла CIforItFriendly.yml
              * и передаём её в метод startBrowser, который применит драйвера для хрома или фаерфокса
              * */
@@ -52,7 +56,8 @@ abstract public class BaseSeleniumTest {
             startBrowser(options);
         } else {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+          //TODO add new ChromeOptions().addArguments("--headless") to run
+           driver = new ChromeDriver(new ChromeOptions().addArguments("--headless","--window-size=1920,1080"));
 
         }
         driver.manage().window().maximize();
@@ -98,19 +103,38 @@ abstract public class BaseSeleniumTest {
 
 
     @AfterMethod
-    protected void afterMethod(Method method, ITestResult testResult) {
-        if (!testResult.isSuccess()) takeScreenshot(driver, method.getName(), this.getClass().getName());
+    public void attachFilesToFailedTest(ITestResult result) throws IOException {
+        if (!result.isSuccess()) {
+            String uuid = UUID.randomUUID().toString();
+           Allure.getLifecycle().addAttachment(
+                    uuid+"screenshot", "image/png", "png"
+                    , ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES));
+            Path tracePath = Paths.get("target/surefire-reports/emailable-report.html");
+            System.out.println(tracePath + " tracepath");
+            Allure.addAttachment("source.html", "text/html", String.valueOf(tracePath));
+           // String traceFileName = String.format("target/%s_trace.zip", uuid);
 
+//
+//            String traceFileName = String.format("target/%s_trace.zip", uuid);
+//                Path tracePath = Paths.get(traceFileName);
+
+
+
+
+        }
     }
 
-    static File takeScreenshot (WebDriver driver, String methodName, String className) {
+//    protected void afterMethod(Method method, ITestResult testResult) {
+//        if (!testResult.isSuccess()) takeScreenshot(driver, method.getName(), this.getClass().getName());
+//    }
+
+    static void takeScreenshot (WebDriver driver, String methodName, String className) {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File(String.format("screenshots/%s.%s.png", className, methodName)));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return file;
     }
 }
 
